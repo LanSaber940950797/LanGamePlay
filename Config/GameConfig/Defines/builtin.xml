@@ -1,0 +1,103 @@
+<module name="">
+    <bean name="Vec2" valueType="1" sep=";">
+        <var name="x" type="float"/>
+        <var name="y" type="float"/>
+        
+    </bean>
+    <bean name="Vec3" valueType="1" sep=";">
+        <var name="x" type="float"/>
+        <var name="y" type="float"/>
+        <var name="z" type="float"/>
+        
+    </bean>
+    
+    <enum name="ESkillType">
+        <var name="NormalAttack" value="0"/>
+        <var name="CounterAttack" value="1"/>
+        <var name="Proactive" value="2"/>
+        <var name="Passive" value="3"/>
+        <var name="Buff" value="4"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.ESkillType"/>
+        </mapper>
+    </enum>
+   
+    <enum name="ECastSelectMode">
+        <var name="None" value="0"/>
+        <var name="Point" value="1"/>
+        <var name="Role" value="2"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.ECastSelectMode"/>
+        </mapper>
+    </enum>
+    <enum name="TargetSideType">
+        <var name="None" value="0"/>
+        <var name="Friend" value="1"/>
+        <var name="Enemy" value="2"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.TargetSideType"/>
+        </mapper>
+    </enum>
+    <enum name="EBuffRefreshMode">
+        <var name="None" value="0"/>
+        <var name="AddLayer" value="1"/>
+        <var name="RefreshDuration" value="2"/>
+        <var name="AddDuration" value="4"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.EBuffRefreshMode"/>
+        </mapper>
+    </enum>
+    <enum name="ERoleShape">
+        <var name="None" value="0"/>
+        <var name="Circle" value="1"/>
+        <var name="Rect" value="2"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.ERoleShape"/>
+        </mapper>
+    </enum>
+    <enum name="EBuffTriggerMethod">
+        <var name="None" value="0"/>
+        <var name="OnEvent" value="1"/>
+        <var name="Repeat" value="2"/>
+        <var name="OnAction" value="4"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.EBuffTriggerMethod"/>
+        </mapper>
+    </enum>
+    <enum name="EBuffRemoveMethod">
+        <var name="None" value="0"/>
+        <var name="OnEvent" value="1"/>
+        <var name="OnMaxTriggerTimes" value="2"/>
+        <var name="OnMaxLayer" value="4"/>
+        <var name="OnAction" value="8"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.EBuffRemoveMethod"/>
+        </mapper>
+    </enum>
+     <enum name="SpellTargetType">
+        <var name="None" value="0"/>
+        <var name="Target" value="1"/>
+        <var name="Ponit" value="2"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.SpellTargetType"/>
+        </mapper>
+    </enum>
+    <enum name="ActionPointType">
+        <var name="None" value="0"/>
+        <var name="PreCauseDamage" value="1"/>
+        <var name="PreReceiveDamage" value="2"/>
+        <var name="PostCauseDamage" value="4"/>
+        <var name="PostReceiveDamage" value="8"/>
+        <var name="PostGiveCure" value="16"/>
+        <var name="PostReceiveCure" value="32"/>
+        <var name="AssignEffect" value="64"/>
+        <var name="ReceiveEffect" value="128"/>
+        <var name="PostGiveBuff" value="256"/>
+        <var name="PostReceiveBuff" value="512"/>
+        <var name="PreSpell" value="1024"/>
+        <var name="PostSpell" value="2048"/>
+        <mapper target="client" codeTarget="cs-bin">
+            <option name="type" value="GameLogic.Battle.ActionPointType"/>
+        </mapper>
+    </enum>
+</module>

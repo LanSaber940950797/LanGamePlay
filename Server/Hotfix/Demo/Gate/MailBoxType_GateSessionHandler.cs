@@ -1,0 +1,20 @@
+﻿namespace ET.Server
+{
+    [Invoke((long)MailBoxType.GateSession)]
+    public class MailBoxType_GateSessionHandler: AInvokeHandler<MailBoxInvoker>
+    {
+        public override void Handle(MailBoxInvoker args)
+        {
+            MailBoxComponent mailBoxComponent = args.MailBoxComponent;
+            
+            // 这里messageObject要发送出去，不能回收
+            IMessage messageObject = args.MessageObject;
+            
+            if (mailBoxComponent.Parent is PlayerSessionComponent playerSessionComponent)
+            {
+                Log.Debug($"MailBoxType_GateSessionHandler: {messageObject.GetType().Name}, {messageObject}");
+                playerSessionComponent.Session?.Send(messageObject);
+            }
+        }
+    }
+}

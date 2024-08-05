@@ -1,0 +1,63 @@
+syntax = "proto3";
+package ET;
+
+message OneFrameInputs // IMessage
+{
+	map<int64, LSInput> Inputs = 2;
+}
+
+message LockStepUnitInfo
+{
+	int64 PlayerId = 1;
+	TrueSync.TSVector Position = 2;
+	TrueSync.TSQuaternion Rotation = 3;
+}
+
+
+message OneFrameState
+{
+	repeated GameLogic.Battle.StateFrame States = 1;
+}
+
+message OneFrameStates 
+{
+	map<int64, OneFrameState> States = 2;
+}
+
+message FrameMessage // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+
+	int32 Frame = 3;
+	OneFrameState State = 4;
+}
+
+message OneFrameStatesMessage // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+	
+	int32 Frame = 3;
+	OneFrameStates States = 4;
+}
+
+message ActorCreateInfo
+{
+	GameLogic.Battle.ActorType ActorType = 1;
+	GameLogic.Battle.SideType SideType = 2;
+	TrueSync.TSVector Position = 3;
+	TrueSync.TSQuaternion Rotation = 4;
+	int64 PlayerId = 5;
+	int32 DescId = 6;
+
+}
+
+
+message Room2C_AdjustUpdateTime // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+
+	int32 DiffTime = 3;
+}

@@ -1,0 +1,115 @@
+syntax = "proto3";
+package ET;
+
+/// 请求匹配
+// ResponseType Match2G_Match
+message G2Match_Match // IRequest
+{
+	int32 RpcId = 1;
+	
+	int64 Id = 2;
+
+	string RoomId = 3;
+	bool IsCreate = 4;
+}
+
+message Match2G_Match // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}
+
+// ResponseType Map2Match_GetRoom
+message Match2Map_GetRoom // IRequest
+{
+	int32 RpcId = 1;
+	repeated int64 PlayerIds = 2;
+}
+
+message Map2Match_GetRoom // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	/// 房间的ActorId
+	ActorId ActorId = 4;
+}
+
+
+
+// ResponseType Room2RoomManager_Init
+message RoomManager2Room_Init // IRequest
+{
+	int32 RpcId = 1;
+	int64 PlayerId = 2;
+	int64 RoomId = 3;
+}
+
+message Room2RoomManager_Init // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	ActorId ActorId = 4;
+}
+
+/// 请求创建房间
+// ResponseType Match2G_CreateRoom
+message G2Match_CreateRoom // IRequest
+{
+	int32 RpcId = 1;
+	
+	int64 Id = 2;
+}
+
+message Match2G_CreateRoom // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	ActorId ActorId = 4;
+	int64 RoomId = 5;
+}
+
+/// 请求加入房间
+// ResponseType Match2G_JoinRoom
+message G2Match_JoinRoom // IRequest
+{
+	int32 RpcId = 1;
+	
+	int64 Id = 2;
+	int64 RoomId = 3;
+}
+
+message Match2G_JoinRoom // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	ActorId ActorId = 4;
+	int64 RoomId = 5;
+}
+
+// ResponseType Match2G_GetRoomInfo
+message G2Match_GetRoomInfo // IRequest
+{
+	int32 RpcId = 1;
+	
+	int64 Id = 2;
+	int64 RoomId = 3;
+}
+
+message Match2G_GetRoomInfo // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 RoomId = 4;
+	ActorId ActorId = 5;
+}

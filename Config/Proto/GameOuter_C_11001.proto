@@ -1,0 +1,136 @@
+syntax = "proto3";
+package ET;
+
+// ResponseType G2C_Match
+message C2G_Match // ISessionRequest
+{
+	int32 RpcId = 1;
+
+	string RoomId = 2;
+	bool IsCreate = 3;
+}
+
+message G2C_Match // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}
+
+message A2RoomInner_Message // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+	uint16 OpCode = 3;
+	int64 RoomId = 4;
+	string Name = 5;
+	bytes MessageObj = 6;
+}
+
+
+/// 创建房间
+// ResponseType G2C_CreateRoom
+message C2G_CreateRoom // ISessionRequest
+{
+	int32 RpcId = 1;
+}
+
+message G2C_CreateRoom // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 RoomId = 4;
+}
+
+/// 创建房间
+// ResponseType G2C_JoinRoom
+message C2G_JoinRoom // ISessionRequest
+{
+	int32 RpcId = 1;
+
+	int64 RoomId = 2;
+}
+
+message G2C_JoinRoom // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 RoomId = 4;
+}
+// ResponseType Room2C_JoinRoom
+message C2Room_JoinRoom // IRoomRequest
+{
+	int32 RpcId = 1;
+	int64 PlayerId = 2;
+	int64 TargetPlayerId = 3;
+
+	int64 RoomId = 4;
+	string Name = 5;
+}
+
+
+message RoomPlayerInfo
+{
+	int64 PlayerId = 1;
+	string Name = 2;
+}
+
+message Room2C_JoinRoom // IRoomResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 PlayerId = 4;
+	int64 TargetPlayerId = 5;
+
+	repeated RoomPlayerInfo Players = 6;
+	bytes WolrdData = 7;
+	int64 StartTime = 8;
+	int32 Frame = 9;
+	//string WoldData = 10; //先用字符串替换，MemoryPack有问题
+}
+
+
+message C2Room_TestChangeTxt // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+	string Txt = 3;
+}
+
+message Room2C_TestChangeTxtNotify // IRoomMessage
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+
+	int64 Id = 3;
+	string Txt = 4;
+}
+
+
+// ResponseType Room2C_Ping
+message C2Room_Ping // IRoomRequest
+{
+	int64 PlayerId = 1;
+	int64 TargetPlayerId = 2;
+	int32 RpcId = 3;
+}
+
+message Room2C_Ping // IRoomResponse
+{
+	
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	int64 Time = 4;
+	int64 PlayerId = 5;
+	int64 TargetPlayerId = 6;
+}
+
+
+

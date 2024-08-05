@@ -1,0 +1,88 @@
+<module name="Battle">
+	<enum name="SkillMagicType"> 技能元素类型
+		<var name="SKILL_TYPE_NONE" alias="无类型" value="0"/>
+		<var name="SKILL_TYPE_DMG_PHY" alias="物理伤害属性" value="1"/>
+		<var name="SKILL_TYPE_DMG_MAGIC" alias="魔法伤害属性" value="2"/>
+	</enum>
+
+	<enum name="SkillAttrDamageType"> 伤害类型
+		<var name="ATTR_TYPE_NONE" alias="无数值" value="0"/>
+		<var name="ATTR_TYPE_DMG_WEAPON" alias="按释放者的伤害类型*X%+固定值计算,目标有防御计算" value="1"/>
+		<var name="ATTR_TYPE_DMG_NO_DEFEND" alias="按释放者的伤害类型*X%+固定值计算（无视目标的防御）" value="2"/>
+		<var name="ATTR_TYPE_DMG_TARGET_HP_NO_DEFEND" alias="按受击者的气血上限*X%+固定值计算（无视目标的防御）" value="3"/>
+		<var name="ATTR_TYPE_HP_AS_ATK" alias="按释放者的攻击类型*X%+固定值计算，恢复当前生命" value="4"/>
+		<var name="ATTR_TYPE_HP_RATIO" alias="按受击者的HP上限*X%+固定值计算，恢复当前生命" value="5"/>
+	</enum>
+
+	<enum name="CastPosType"> 施法位置类型
+		<var name="TargetPos" alias="目标位置（跟随）" value="0"/>
+		<var name="TargetPosCast" alias="施法时目标位置" value="1"/>
+		<var name="Direction" alias="方向" value="2"/>
+	</enum>
+
+	<enum name="TargetType"> 施法目标类型
+		<var name="None" alias="无" value="0"/>
+		<var name="Enemy" alias="敌人" value="1"/>
+		<var name="Friend" alias="友方" value="2"/>
+		<var name="FriendWithoutSelf" alias="友方除自己" value="3"/>
+		<var name="Posion" alias="位置" value="4"/>
+		<var name="All" alias="全体" value="5"/>
+		<var name="Self" alias="自己（施法者）" value="6"/>
+		<var name="EffectSelect" alias="有效果选择" value="7"/>
+	</enum>
+
+	
+	<enum name="AreaType"> 攻击区域类型
+		<var name="None" alias="无" value="0"/>
+		<var name="P2P" alias="目标P2P" value="1"/>
+		<var name="Circular" alias="圆形" value="2"/>
+		<var name="Rect" alias="矩形" value="3"/>
+		<var name="Sector" alias="扇形" value="4"/>
+		<var name="TargetAllSide" alias="目标阵营全体" value="5"/>
+	</enum>
+
+	<enum name="TargetFilterType"> 目标过滤类型
+		<var name="None" alias="无" value="0"/>
+	</enum>
+	<enum name="TargetCondType"> 目标条件类型
+		<var name="None" alias="无" value="0"/>
+	</enum>
+	<enum name="EffectType"> 效果类型类型
+		<var name="None" alias="无" value="0"/>
+		<var name="Damage" alias="伤害dmg" value="1"/>
+		<var name="Cure" alias="治疗" value="2"/>
+		<var name="AddBuff" alias="添加buff" value="3"/>
+		<var name="AddStatus" alias="添加状态" value="4"/>
+	</enum>
+	<enum name="SkillType"> 技能类型
+		<var name="None" alias="无" value="0"/>
+		<var name="NormalAttack" alias="普攻" value="1"/>
+		<var name="Proactive" alias="被动" value="2"/>
+	</enum>
+
+	<bean name="SkillAttrDamageData" sep="," parent="">
+		<var name="MagicType" type="SkillMagicType"/>
+		<var name="AttrType" type="SkillAttrDamageType"/>
+		<var name="Param1" type="float"/>
+		<var name="Param2" type="float"/>
+		<var name="Param3" type="float"/>
+		<var name="MaxLimit" type="float"/>
+	</bean>
+
+	<bean name="SkillCastCondition" sep="," parent="">
+		<var name="Type" type="int"/>
+		<var name="Param1" type="int"/>
+		<var name="Param2" type="int"/>		
+	</bean>
+	
+
+	<bean name="Effect" sep="," parent="">
+		<var name="effectType" type="EffectType"/>
+		<var name="param1" type="int"/> 效果参数	
+		<var name="param2" type="int"/> 效果参数	
+		<var name="param3" type="int"/> 效果参数	
+		<var name="param4" type="int"/> 效果参数	
+		<var name="param5" type="int"/> 效果参数	
+		<var name="param6" type="int"/> 效果参数					
+	</bean>
+</module>

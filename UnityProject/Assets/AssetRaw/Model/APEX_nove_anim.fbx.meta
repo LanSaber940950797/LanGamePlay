@@ -1,0 +1,2387 @@
+fileFormatVersion: 2
+guid: 708080572fd3f824da3e107fb22a793f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'nova_run_rifle_ADS_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_c_jawA' has translation
+      animation that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_run_rifle_ADS_F_1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_jawA'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_run_rifle_ADS_F_2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_jawA'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_run_rifle_F_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_run_rifle_F_1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_run_rifle_F_2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slide_rifle_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideEnd_rifle_BL_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideEnd_rifle_BR_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideEnd_rifle_F_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideEnd_rifle_L_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideEnd_rifle_R_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_slideFloat_rifle_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_sprint_rifle_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_neckB'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_sprint_rifle_1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_neckB'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_sprint_rifle_2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_neckB'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_F_2' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_F_sprinting_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_F_sprinting_1' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_F_sprinting_2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_high_0' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_high_F_1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_high_F_2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_high_F_sprinting_0' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_high_F_sprinting_1' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_high_F_sprinting_2' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_low_0' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_low_F_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_low_F_1' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_low_F_2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_low_F_sprinting_0' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_low_F_sprinting_1' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_low_F_sprinting_2' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_med_0' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_med_F_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_med_F_1' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_land_rifle_med_F_2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_med_F_sprinting_0' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_med_F_sprinting_1' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_land_rifle_med_F_sprinting_2' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_float_rifle_F_1' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'def_r_shoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'nova_medium_float_rifle_F_2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'nova_medium_gravity_lift_rifle_F_0' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Nova_idle_rifle_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_jawA'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Nova_idle_rifle_ADS_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bangalore_crouch_rifle_0' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|Action' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|bangalore_crouch_rifle_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|bangalore_crouch_rifle_ADS_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|bangalore_crouch_rifle_ADS_0.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|mp_pt_medium_AIM_bangalore_run_rifle_F_0' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_fire_pistol_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_fire_rifle_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_jawA'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|Nova_idle_rifle_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|Nova_idle_rifle_ADS_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_float_rifle_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_float_rifle_F_0.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_float_rifle_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_float_rifle_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_gravity_lift_rifle_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_jump_rifle_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_jump_rifle_F_0.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_jump_rifle_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_jump_rifle_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_0.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_1.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_2.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_2.002' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_sprinting_0' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_sprinting_0.001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_sprinting_1' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_F_sprinting_2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_1.001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_2.001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_sprinting_0' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_sprinting_1' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_high_F_sprinting_2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_sprinting_0' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_sprinting_1' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_low_F_sprinting_2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_sprinting_0' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_sprinting_1' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_medium_land_rifle_med_F_sprinting_2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_menu_lobby_center_idle_alt_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_c_jawA' has translation
+      animation that will be discarded.\n\t'def_l_finRingCarpal' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finThumbA'
+      has translation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_pullout_repulsorTAC_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_heirloom_B_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_ADS_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_ADS_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_ADS_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_run_rifle_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_slide_rifle_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_slideEnd_rifle_BL_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_slideEnd_rifle_BR_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_slideEnd_rifle_F_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_slideEnd_rifle_L_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_slideEnd_rifle_R_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_slideFloat_rifle_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_sprint_rifle_0'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_neckB'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_sprint_rifle_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_neckB' has translation animation
+      that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_sprint_rifle_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_neckB' has translation animation
+      that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_B_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_B_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_B_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_heirloom_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_ADS_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_ADS_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_ADS_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_r_shoulder' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'pilot_medium_nova_01_LOD0|nova_walk_pistol_F_1.001'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'def_c_jawA'
+      has translation animation that will be discarded.\n\t'def_l_shoulderMid' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_pistol_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_0.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_c_jawA' has translation
+      animation that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_1.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_c_jawA' has translation
+      animation that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_c_jawA' has translation animation that
+      will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_ADS_F_2.001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_c_jawA' has translation
+      animation that will be discarded.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_F_0.001' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_rifle_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_UA_F_0' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_UA_F_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_walk_UA_F_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'def_l_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_finRingCarpal'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|nova_ziplineIdle_heirloom_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_l_shoulderMid' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'def_r_shoulder'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|ragold_sword_sprint_carry_0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|ragold_sword_sprint_carry_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'pilot_medium_nova_01_LOD0|ragold_sword_sprint_carry_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'def_r_shoulder' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: def_c_hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_spineA
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_spineB
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_neckA
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_neckB
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_clav
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_clav
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_ball
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_ball
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_eyeball
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_eyeball
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_jawA
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finThumbA
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finThumbB
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finThumbC
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finIndexA
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finIndexB
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finIndexC
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finRingA
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finRingB
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finRingC
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finMidA
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finMidB
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finMidC
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finPinkyA
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finPinkyB
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_l_finPinkyC
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finThumbA
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finThumbB
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finThumbC
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finIndexA
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finIndexB
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finIndexC
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finRingA
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finRingB
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finRingC
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finMidA
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finMidB
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finMidC
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finPinkyA
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finPinkyB
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_r_finPinkyC
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: def_c_spineC
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: APEX_nove_anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_0_horizon_base_body
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: body_0_horizon_base_gear
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: body_0_horizon_base_hair
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: body_0_horizon_base_head
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: body_0_wraith_base_eyecornea
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: body_0_wraith_base_eyeshadow
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: pilot_medium_nova_01_LOD0
+      parentName: APEX_nove_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 2, y: 2, z: 2}
+    - name: def_c_visor
+      parentName: pilot_medium_nova_01_LOD0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.53729963, y: -0, z: -0, w: -0.8433915}
+      scale: {x: 1, y: 1.0000017, z: 1.0000017}
+    - name: jx_c_delta
+      parentName: pilot_medium_nova_01_LOD0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -1.6256006e-14, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    - name: def_c_hip
+      parentName: jx_c_delta
+      position: {x: -0.0010547197, y: -0.0060020126, z: 0.40361723}
+      rotation: {x: 0.7071068, y: -0.00000059985547, z: -0.0000006039716, w: 0.7071068}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.9999994}
+    - name: def_c_spineA
+      parentName: def_c_hip
+      position: {x: 5.9604643e-10, y: -0.000000031888483, z: -0.000000115992734}
+      rotation: {x: -2.5410997e-17, y: 0.000000005820767, z: -0.0000000014551922, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.9999995}
+    - name: def_c_spineB
+      parentName: def_c_spineA
+      position: {x: -0.0000000035762786, y: 0.055905476, z: -0.0000005272031}
+      rotation: {x: -1.01643974e-16, y: 0.000000023283064, z: 0.0000000014551922, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.9999995}
+    - name: def_c_spineC
+      parentName: def_c_spineB
+      position: {x: 0.000000005662441, y: 0.055511717, z: -0.00000004887581}
+      rotation: {x: 2.032879e-16, y: -0, z: -0.000000008731149, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.99999964}
+    - name: def_c_neckA
+      parentName: def_c_spineC
+      position: {x: -0.00000001013279, y: 0.08503922, z: -0.0023621677}
+      rotation: {x: 0.00000008940697, y: -0.00000001164153, z: 0.0000000058207683, w: 1}
+      scale: {x: 1, y: 1.0000008, z: 1.0000007}
+    - name: jx_c_neckB
+      parentName: def_c_neckA
+      position: {x: 0.00000043034552, y: 0.043700736, z: 0.00944877}
+      rotation: {x: -0.00000008940697, y: 0.000000011641535, z: 0.0000000058207648, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: def_c_neckB
+      parentName: jx_c_neckB
+      position: {x: -0.0000004863739, y: 0.000000058338046, z: 0.000000035241246}
+      rotation: {x: -0, y: -0.000000023283068, z: -7.2759637e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.0000013, z: 1.0000011}
+    - name: def_c_adamsApple
+      parentName: def_c_neckB
+      position: {x: 0.000029936433, y: -0.018009765, z: 0.01354325}
+      rotation: {x: 8.682091e-17, y: -0.000000002910383, z: 0.0000000036379795, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_chin
+      parentName: def_c_neckB
+      position: {x: 0.00075621874, y: -0.011064062, z: 0.03881748}
+      rotation: {x: 1.6940662e-17, y: -0, z: 7.2759576e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_forehead
+      parentName: def_c_neckB
+      position: {x: -0.000031364558, y: 0.031652004, z: 0.04546096}
+      rotation: {x: -2.7528579e-17, y: 0.000000002910383, z: -0.0000000010913939, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: def_c_head
+      parentName: def_c_neckB
+      position: {x: 0.00000072076915, y: 0.03937001, z: 0.000000002682209}
+      rotation: {x: 3.3881325e-17, y: -0, z: 0.0000000014551915, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_hair_1_base
+      parentName: def_c_head
+      position: {x: -0.0077150273, y: 0.037741557, z: 0.031981748}
+      rotation: {x: -0.00000005376398, y: -0.7071068, z: 0.7071068, w: 0.000000053763983}
+      scale: {x: 1.0000021, y: 1.000004, z: 1.0000014}
+    - name: def_l_hair_1_mid1
+      parentName: def_l_hair_1_base
+      position: {x: 0.01662037, y: -0.0013940352, z: 0.0051012016}
+      rotation: {x: -0, y: 3.6380143e-10, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_l_hair_1_mid2
+      parentName: def_l_hair_1_mid1
+      position: {x: 0.009809837, y: -0.001192917, z: 0.017476609}
+      rotation: {x: 1.2924697e-24, y: -3.6379788e-10, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_l_hair_2_base
+      parentName: def_c_head
+      position: {x: 0.0030874442, y: 0.043752983, z: 0.007613721}
+      rotation: {x: -0.00000005376398, y: -0.7071068, z: 0.7071068, w: 0.000000053763983}
+      scale: {x: 1.0000021, y: 1.000004, z: 1.0000014}
+    - name: def_l_hair_2_mid1
+      parentName: def_l_hair_2_base
+      position: {x: 0.028180066, y: 0.0058846497, z: 0.004984172}
+      rotation: {x: -0, y: 3.6380143e-10, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_l_hair_2_mid2
+      parentName: def_l_hair_2_mid1
+      position: {x: 0.01907332, y: 0.0048065293, z: 0.025606684}
+      rotation: {x: 1.2924697e-24, y: -3.6379788e-10, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_l_hair_2_end
+      parentName: def_l_hair_2_mid2
+      position: {x: 0.00805691, y: 0.002597465, z: 0.01596066}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_r_hair_1_base
+      parentName: def_c_head
+      position: {x: 0.024391627, y: 0.030458672, z: 0.0052879537}
+      rotation: {x: -0.00000005376398, y: -0.7071068, z: 0.7071068, w: 0.000000053763983}
+      scale: {x: 1.0000021, y: 1.000004, z: 1.0000014}
+    - name: def_r_hair_1_mid1
+      parentName: def_r_hair_1_base
+      position: {x: -0.0097073885, y: 0.012066987, z: 0.012789301}
+      rotation: {x: -0, y: 3.6380143e-10, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_r_hair_1_mid2
+      parentName: def_r_hair_1_mid1
+      position: {x: -0.0038412905, y: 0.008203702, z: 0.0127297}
+      rotation: {x: 1.2924697e-24, y: -3.6379788e-10, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_r_hair_2_base
+      parentName: def_c_head
+      position: {x: 0.008973311, y: 0.03205453, z: -0.024656504}
+      rotation: {x: -0.00000005376398, y: -0.7071068, z: 0.7071068, w: 0.000000053763983}
+      scale: {x: 1.0000021, y: 1.000004, z: 1.0000014}
+    - name: def_r_hair_2_mid1
+      parentName: def_r_hair_2_base
+      position: {x: 0.0052487594, y: 0.012621578, z: 0.010548473}
+      rotation: {x: -0, y: 3.6380143e-10, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_r_hair_2_mid2
+      parentName: def_r_hair_2_mid1
+      position: {x: 0.0063228393, y: 0.0034493224, z: 0.015141396}
+      rotation: {x: 1.2924697e-24, y: -3.6379788e-10, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_r_hair_3_base
+      parentName: def_c_head
+      position: {x: 0.03547432, y: 0.0115051465, z: 0.015657846}
+      rotation: {x: -0.00000005376398, y: -0.7071068, z: 0.7071068, w: 0.000000053763983}
+      scale: {x: 1.0000021, y: 1.000004, z: 1.0000014}
+    - name: def_r_hair_3_mid1
+      parentName: def_r_hair_3_base
+      position: {x: 0.00031593308, y: -0.00055432913, z: 0.017657561}
+      rotation: {x: -0, y: 3.6380143e-10, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: def_c_jawA
+      parentName: def_c_neckB
+      position: {x: 0.00000040676443, y: 0.014564699, z: -0.0045823525}
+      rotation: {x: 0.2500916, y: -0.0000000025449494, z: 0.000000001784575, w: 0.9682222}
+      scale: {x: 1, y: 1.0000013, z: 1.0000015}
+    - name: def_c_teethBot_manual
+      parentName: def_c_jawA
+      position: {x: -0.00000064745547, y: 0.0000015294552, z: 0.038870648}
+      rotation: {x: -0.2500785, y: 5.4592375e-10, z: 0.000000002113414, w: 0.96822554}
+      scale: {x: 1, y: 1.0000004, z: 0.99999934}
+    - name: def_c_tongue_a
+      parentName: def_c_jawA
+      position: {x: -0.00012805163, y: -0.009021235, z: 0.029879028}
+      rotation: {x: -0.4366111, y: 0.0000000021601043, z: -4.804812e-10, w: 0.8996504}
+      scale: {x: 1, y: 1.0000032, z: 1.0000017}
+    - name: def_c_tongue_b
+      parentName: def_c_tongue_a
+      position: {x: 0.000000010430813, y: -0.000000040382147, z: 0.0062403767}
+      rotation: {x: 0.162552, y: 0.0000000014099635, z: 3.6070535e-10, w: 0.98670006}
+      scale: {x: 1, y: 1.0000005, z: 0.9999992}
+    - name: def_c_tongue_c
+      parentName: def_c_tongue_b
+      position: {x: -0.000000629751, y: -0.000000018179417, z: 0.0059014293}
+      rotation: {x: 0.06015175, y: 7.272889e-10, z: 3.1004862e-11, w: 0.9981893}
+      scale: {x: 1, y: 1.0000014, z: 1.0000005}
+    - name: def_c_tongue_d
+      parentName: def_c_tongue_c
+      position: {x: -0.00028848797, y: -0.000000067949294, z: 0.005562472}
+      rotation: {x: 0.050573736, y: -0.0000000014592889, z: 3.1308203e-11, w: 0.99872035}
+      scale: {x: 1, y: 1.0000015, z: 1}
+    - name: def_c_mouth
+      parentName: def_c_neckB
+      position: {x: 0.00000065952537, y: -0.00000002387911, z: 0.029247984}
+      rotation: {x: -8.4703295e-18, y: -0, z: -3.6379783e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_lipLower_a
+      parentName: def_c_mouth
+      position: {x: 0.0009485042, y: -0.0024229705, z: 0.014281301}
+      rotation: {x: 5.929232e-17, y: 1.540744e-33, z: 0.0000000025465852, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_c_lipLower_b
+      parentName: def_c_mouth
+      position: {x: 0.0006323495, y: -0.0010637778, z: 0.009974947}
+      rotation: {x: 5.929232e-17, y: 1.540744e-33, z: 0.0000000025465852, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000017}
+    - name: def_c_lipUpper_a
+      parentName: def_c_mouth
+      position: {x: 0.00090703904, y: 0.0013354516, z: 0.01483767}
+      rotation: {x: -3.282256e-17, y: -0.000000002910383, z: -0.0000000015461421, w: 1}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000015}
+    - name: def_c_lipUpper_b
+      parentName: def_c_mouth
+      position: {x: 0.000751988, y: 0.0021984933, z: 0.010270204}
+      rotation: {x: 3.494009e-17, y: -0.000000008731149, z: 0.0000000010913923, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000017}
+    - name: def_l_innerlipUpper_a
+      parentName: def_c_mouth
+      position: {x: -0.0026513215, y: 0.0015171146, z: 0.014005446}
+      rotation: {x: 2.4352194e-17, y: -0.000000002910383, z: 9.094944e-10, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_l_innerlipUpper_b
+      parentName: def_c_mouth
+      position: {x: -0.0018884396, y: 0.0019519656, z: 0.009844265}
+      rotation: {x: -4.8280894e-16, y: -0, z: -0.000000020736483, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000017}
+    - name: def_l_innerlipUpper_sticky
+      parentName: def_c_mouth
+      position: {x: -0.0023156535, y: 0.00013442755, z: 0.01169322}
+      rotation: {x: 3.5998907e-17, y: 0.000000005820766, z: 0.0000000018189894, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_l_lipCorner_a
+      parentName: def_c_mouth
+      position: {x: -0.006743146, y: 0.00008829713, z: 0.0082856985}
+      rotation: {x: 1.1223185e-16, y: -0.000000017462302, z: 0.000000004001775, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipCorner_b
+      parentName: def_c_mouth
+      position: {x: -0.0072411695, y: 0.00010983467, z: 0.0059763333}
+      rotation: {x: -2.964616e-17, y: -0.000000011641536, z: -0.0000000018189896, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_l_lipCorner_sticky
+      parentName: def_c_mouth
+      position: {x: -0.006351344, y: -0.00016873001, z: 0.008209333}
+      rotation: {x: 1.9058243e-17, y: 0.000000005820766, z: 0.0000000010913936, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipLower_a
+      parentName: def_c_mouth
+      position: {x: -0.0037401845, y: -0.0010387254, z: 0.012789898}
+      rotation: {x: -3.9175287e-17, y: -0.000000002910383, z: -0.0000000018189896, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipLower_b
+      parentName: def_c_mouth
+      position: {x: -0.0029418876, y: -0.000513767, z: 0.009279661}
+      rotation: {x: 1.6093633e-16, y: 6.162976e-33, z: 0.0000000069121615, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipLower_sticky
+      parentName: def_c_mouth
+      position: {x: -0.0029895925, y: 0.00014041543, z: 0.011220069}
+      rotation: {x: 8.258574e-17, y: -0.000000002910383, z: 0.0000000034106058, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipLowerOuter_a
+      parentName: def_c_mouth
+      position: {x: -0.0062258802, y: -0.00032363474, z: 0.010057983}
+      rotation: {x: 1.6728903e-16, y: -0.000000005820766, z: 0.0000000069121597, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_l_lipLowerOuter_b
+      parentName: def_c_mouth
+      position: {x: -0.0054109036, y: 0.000016284584, z: 0.0077046105}
+      rotation: {x: 1.10114296e-16, y: -0, z: 0.0000000047293724, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_l_lipLowerOuter_sticky
+      parentName: def_c_mouth
+      position: {x: -0.0051051485, y: 0.0001713395, z: 0.009644857}
+      rotation: {x: 2.1175774e-18, y: 0.0000000058207696, z: 3.6379794e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_l_lipUpperCenter_a
+      parentName: def_c_mouth
+      position: {x: -0.0048190295, y: 0.0011726331, z: 0.01239572}
+      rotation: {x: 2.2234612e-17, y: 0.000000002910383, z: 0.0000000010913934, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000017}
+    - name: def_l_lipUpperCenter_b
+      parentName: def_c_mouth
+      position: {x: -0.0042039813, y: 0.0012372106, z: 0.008934874}
+      rotation: {x: 4.573979e-16, y: -0, z: 0.000000019645087, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_l_lipUpperCenter_sticky
+      parentName: def_c_mouth
+      position: {x: -0.0041966033, y: -0.000040330888, z: 0.010875311}
+      rotation: {x: -6.3527504e-18, y: 0.000000005820766, z: 4.9303807e-26, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000014}
+    - name: def_l_lipUpperOuter_a
+      parentName: def_c_mouth
+      position: {x: -0.0064702868, y: 0.00083624956, z: 0.010823421}
+      rotation: {x: 2.5410992e-17, y: 3.85186e-34, z: 0.0000000010913936, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_l_lipUpperOuter_b
+      parentName: def_c_mouth
+      position: {x: -0.005571279, y: 0.0007154238, z: 0.007841601}
+      rotation: {x: 1.9058243e-17, y: 0.000000005820766, z: 0.0000000010913936, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_l_lipUpperOuter_sticky
+      parentName: def_c_mouth
+      position: {x: -0.0053219656, y: -0.0001603198, z: 0.009887376}
+      rotation: {x: 1.02702765e-16, y: -0.000000008731149, z: 0.0000000040017767, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_r_innerlipUpper_a
+      parentName: def_c_mouth
+      position: {x: 0.004416544, y: 0.001858046, z: 0.013732004}
+      rotation: {x: 1.6940659e-17, y: -1.92593e-34, z: 7.275957e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_innerlipUpper_b
+      parentName: def_c_mouth
+      position: {x: 0.0033595567, y: 0.0022034359, z: 0.009648957}
+      rotation: {x: 2.2869892e-16, y: -0, z: 0.000000009822543, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_innerlipUpper_sticky
+      parentName: def_c_mouth
+      position: {x: 0.003946313, y: 0.00033573745, z: 0.011497883}
+      rotation: {x: 2.5410992e-17, y: 3.85186e-34, z: 0.0000000010913936, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipCorner_a
+      parentName: def_c_mouth
+      position: {x: 0.008251756, y: -0.000013309121, z: 0.0070747184}
+      rotation: {x: 1.0587912e-16, y: -0.000000011641532, z: 0.000000004001776, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_r_lipCorner_b
+      parentName: def_c_mouth
+      position: {x: 0.008730492, y: 0.00043276904, z: 0.00433568}
+      rotation: {x: 1.1858464e-16, y: 3.081488e-33, z: 0.0000000050931703, w: 1}
+      scale: {x: 0.99999994, y: 1.0000011, z: 1.0000017}
+    - name: def_r_lipCorner_sticky
+      parentName: def_c_mouth
+      position: {x: 0.007952998, y: -0.00002453804, z: 0.006782211}
+      rotation: {x: 6.3527484e-17, y: -0, z: 0.000000002728484, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipLower_a
+      parentName: def_c_mouth
+      position: {x: 0.005288919, y: -0.00045431612, z: 0.012438345}
+      rotation: {x: -8.4703295e-18, y: 3.85186e-34, z: -3.6379788e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipLower_b
+      parentName: def_c_mouth
+      position: {x: 0.0043750415, y: -0.00044333935, z: 0.00884994}
+      rotation: {x: 5.929232e-17, y: 1.540744e-33, z: 0.0000000025465852, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipLower_sticky
+      parentName: def_c_mouth
+      position: {x: 0.004563007, y: 0.00017136811, z: 0.010829434}
+      rotation: {x: 2.6760952e-16, y: 6.162976e-33, z: 0.000000011493739, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000017}
+    - name: def_r_lipLowerOuter_a
+      parentName: def_c_mouth
+      position: {x: 0.007866591, y: -0.00035518766, z: 0.009276714}
+      rotation: {x: -8.4703295e-18, y: 3.85186e-34, z: -3.6379788e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipLowerOuter_b
+      parentName: def_c_mouth
+      position: {x: 0.006895306, y: 0.00023805498, z: 0.0065326975}
+      rotation: {x: -4.2351664e-17, y: -0, z: -0.0000000018189898, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_r_lipLowerOuter_sticky
+      parentName: def_c_mouth
+      position: {x: 0.0067067947, y: 0.00024388492, z: 0.008746381}
+      rotation: {x: 1.16467e-17, y: -0.000000002910383, z: 3.637976e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000017}
+    - name: def_r_lipUpperCenter_a
+      parentName: def_c_mouth
+      position: {x: 0.006576987, y: 0.0015114594, z: 0.01173162}
+      rotation: {x: 1.6093629e-16, y: -0, z: 0.0000000069121597, w: 1}
+      scale: {x: 0.99999994, y: 1.0000011, z: 1.0000015}
+    - name: def_r_lipUpperCenter_b
+      parentName: def_c_mouth
+      position: {x: 0.0056103705, y: 0.0016223484, z: 0.008348908}
+      rotation: {x: 2.5410992e-17, y: 3.85186e-34, z: 0.0000000010913936, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000015}
+    - name: def_r_lipUpperCenter_sticky
+      parentName: def_c_mouth
+      position: {x: 0.0058594006, y: 0.00022302628, z: 0.010328421}
+      rotation: {x: -7.835055e-17, y: -0.000000005820766, z: -0.0000000036379784, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipUpperOuter_a
+      parentName: def_c_mouth
+      position: {x: 0.008032926, y: 0.00096807716, z: 0.009768705}
+      rotation: {x: 2.9646147e-17, y: 0.000000011641531, z: 0.0000000018189892, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000017}
+    - name: def_r_lipUpperOuter_b
+      parentName: def_c_mouth
+      position: {x: 0.0071526407, y: 0.001106016, z: 0.006630611}
+      rotation: {x: -6.352751e-17, y: -0.000000011641532, z: -0.000000003274182, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_r_lipUpperOuter_sticky
+      parentName: def_c_mouth
+      position: {x: 0.007040822, y: 0.000031401516, z: 0.008832664}
+      rotation: {x: 9.317364e-17, y: -0, z: 0.0000000040017767, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000015}
+    - name: def_c_noseArc
+      parentName: def_c_neckB
+      position: {x: 0.0001286748, y: 0.01233396, z: 0.05122091}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: def_c_noseBridge
+      parentName: def_c_neckB
+      position: {x: -0.000000100731846, y: 0.026338799, z: 0.043867473}
+      rotation: {x: 0.00000008940697, y: 0.000000002910383, z: 0.000000005093169, w: 1}
+      scale: {x: 1, y: 1.0000025, z: 1.0000027}
+    - name: def_c_noseLower
+      parentName: def_c_neckB
+      position: {x: 0.00045627294, y: 0.0062895236, z: 0.044276655}
+      rotation: {x: 1.2705495e-17, y: 0.000000005820766, z: 7.275959e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_noseMid
+      parentName: def_c_neckB
+      position: {x: 0.000014156699, y: 0.018937774, z: 0.047694482}
+      rotation: {x: 3.3881325e-17, y: -0, z: 0.0000000014551915, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_c_teethTop
+      parentName: def_c_neckB
+      position: {x: 0.00000014007091, y: 0.0046485937, z: 0.028322898}
+      rotation: {x: -8.4703295e-18, y: -0, z: -3.6379783e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_underChin
+      parentName: def_c_neckB
+      position: {x: 0.00016603946, y: -0.014582928, z: 0.019114047}
+      rotation: {x: -2.117589e-18, y: 0.000000002910383, z: -1.6653345e-16, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_cheekInner
+      parentName: def_c_neckB
+      position: {x: -0.0050947163, y: 0.019755006, z: 0.040974133}
+      rotation: {x: -1.4823085e-17, y: -0.000000002910383, z: -7.2759604e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_cheekLower
+      parentName: def_c_neckB
+      position: {x: -0.018005528, y: 0.0046485686, z: 0.02979329}
+      rotation: {x: 1.2705495e-17, y: 0.000000005820766, z: 7.275959e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_cheekOuter
+      parentName: def_c_neckB
+      position: {x: -0.01975837, y: 0.017230107, z: 0.035654213}
+      rotation: {x: 1.9058238e-17, y: 0.000000002910383, z: 9.0949454e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_chinSide
+      parentName: def_c_neckB
+      position: {x: -0.012406151, y: -0.006454991, z: 0.03163218}
+      rotation: {x: 2.5410992e-17, y: -0, z: 0.0000000010913936, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyeball
+      parentName: def_c_neckB
+      position: {x: -0.011580446, y: 0.026570197, z: 0.032040227}
+      rotation: {x: 2.1175829e-17, y: -0.000000005820766, z: 7.275957e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidLower
+      parentName: def_c_neckB
+      position: {x: -0.011783559, y: 0.024450773, z: 0.038191352}
+      rotation: {x: 2.752857e-17, y: -0.000000002910383, z: 0.0000000010913934, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidLowerInner
+      parentName: def_c_neckB
+      position: {x: -0.008229184, y: 0.02456334, z: 0.0383812}
+      rotation: {x: 6.988023e-17, y: 0.000000002910383, z: 0.0000000030922822, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: def_l_eyelidLowerOutter
+      parentName: def_c_neckB
+      position: {x: -0.016366957, y: 0.025016055, z: 0.037130825}
+      rotation: {x: 2.7528569e-17, y: 0.000000002910383, z: 0.0000000012732924, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidUpper
+      parentName: def_c_neckB
+      position: {x: -0.0128031345, y: 0.028740289, z: 0.03975989}
+      rotation: {x: -2.117589e-18, y: 0.000000002910383, z: -1.6653345e-16, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidUpperFurrow
+      parentName: def_c_neckB
+      position: {x: -0.012791693, y: 0.02959171, z: 0.039664775}
+      rotation: {x: 5.717474e-17, y: 0.000000002910383, z: 0.0000000025465854, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidUpperInner
+      parentName: def_c_neckB
+      position: {x: -0.007898262, y: 0.027001519, z: 0.039244}
+      rotation: {x: 3.2822527e-17, y: 0.0000000014551915, z: 0.0000000014551913, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyelidUpperOutter
+      parentName: def_c_neckB
+      position: {x: -0.016767105, y: 0.027197968, z: 0.037157465}
+      rotation: {x: -8.89385e-17, y: -0.000000005820766, z: -0.000000004001778, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyesackLower
+      parentName: def_c_neckB
+      position: {x: -0.013212507, y: 0.017460598, z: 0.038478628}
+      rotation: {x: -1.2705494e-17, y: -0, z: -5.4569677e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_l_eyesackUpper
+      parentName: def_c_neckB
+      position: {x: -0.012877415, y: 0.02991847, z: 0.040492866}
+      rotation: {x: -3.81165e-17, y: 0.000000005820766, z: -0.0000000014551917, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: def_l_foreheadIn
+      parentName: def_c_neckB
+      position: {x: -0.0069140415, y: 0.030956382, z: 0.04434497}
+      rotation: {x: 2.414044e-16, y: -0.000000005820766, z: 0.00000001018634, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_foreheadMid
+      parentName: def_c_neckB
+      position: {x: -0.014676359, y: 0.03371315, z: 0.042901285}
+      rotation: {x: 1.05879085e-17, y: -0.000000002910383, z: 3.6379763e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_foreheadOut
+      parentName: def_c_neckB
+      position: {x: -0.019966902, y: 0.031760324, z: 0.035690058}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_masseter
+      parentName: def_c_neckB
+      position: {x: -0.023070812, y: 0.012414798, z: 0.020467024}
+      rotation: {x: 8.47033e-18, y: -0, z: 3.6379788e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_nasolabiaEdge
+      parentName: def_c_neckB
+      position: {x: -0.011435995, y: 0.0038072048, z: 0.035885867}
+      rotation: {x: 7.517419e-17, y: 0.0000000014551915, z: 0.0000000032741811, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_l_nasolabialBulge
+      parentName: def_c_neckB
+      position: {x: -0.011442747, y: 0.010297427, z: 0.040396333}
+      rotation: {x: 5.0821987e-17, y: -0, z: 0.0000000021827873, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_nasolabialFurrow
+      parentName: def_c_neckB
+      position: {x: -0.008011145, y: 0.009102282, z: 0.040139016}
+      rotation: {x: 4.2351647e-18, y: 0.000000005820766, z: 3.6379796e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_nostril
+      parentName: def_c_neckB
+      position: {x: -0.0048754527, y: 0.011916437, z: 0.04506353}
+      rotation: {x: -1.2705494e-17, y: -0, z: -5.4569677e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_l_underChin
+      parentName: def_c_neckB
+      position: {x: -0.010282152, y: -0.009553845, z: 0.014857814}
+      rotation: {x: 3.3881325e-17, y: -0, z: 0.0000000014551915, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_cheekInner
+      parentName: def_c_neckB
+      position: {x: 0.0051465086, y: 0.020028485, z: 0.04097413}
+      rotation: {x: 7.4115325e-18, y: 0.0000000014551915, z: 3.6379758e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_r_cheekLower
+      parentName: def_c_neckB
+      position: {x: 0.01874758, y: 0.0044032536, z: 0.029285483}
+      rotation: {x: 8.47033e-18, y: -0, z: 3.6379788e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_cheekOuter
+      parentName: def_c_neckB
+      position: {x: 0.019719552, y: 0.017386317, z: 0.035497997}
+      rotation: {x: 2.0117039e-17, y: -0.0000000043655746, z: 7.275958e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000007}
+    - name: def_r_chinSide
+      parentName: def_c_neckB
+      position: {x: 0.013187204, y: -0.0066635744, z: 0.031202514}
+      rotation: {x: 7.199783e-17, y: -0.000000005820766, z: 0.0000000029103835, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyeball
+      parentName: def_c_neckB
+      position: {x: 0.011580464, y: 0.026570214, z: 0.03204024}
+      rotation: {x: 1.3764286e-17, y: -0.0000000014551915, z: 5.456967e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyelidLower
+      parentName: def_c_neckB
+      position: {x: 0.011822647, y: 0.024411688, z: 0.03819134}
+      rotation: {x: 1.1646698e-17, y: 0.0000000014551915, z: 5.456965e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: def_r_eyelidLowerInner
+      parentName: def_c_neckB
+      position: {x: 0.008229051, y: 0.024485191, z: 0.038348403}
+      rotation: {x: 2.9646156e-17, y: -0, z: 0.0000000012732926, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: def_r_eyelidLowerOutter
+      parentName: def_c_neckB
+      position: {x: 0.016366906, y: 0.025094142, z: 0.037208915}
+      rotation: {x: 2.6469783e-17, y: -0.0000000014551915, z: 0.0000000010913935, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyelidUpper
+      parentName: def_c_neckB
+      position: {x: 0.01276412, y: 0.02881839, z: 0.039798956}
+      rotation: {x: -7.1997814e-17, y: -0, z: -0.0000000030922822, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyelidUpperFurrow
+      parentName: def_c_neckB
+      position: {x: 0.012752503, y: 0.02947446, z: 0.03966478}
+      rotation: {x: -2.117589e-18, y: 0.000000002910383, z: -1.6653345e-16, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyelidUpperInner
+      parentName: def_c_neckB
+      position: {x: 0.007898297, y: 0.027196854, z: 0.039165866}
+      rotation: {x: -2.2022866e-16, y: -0, z: -0.000000009458747, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyelidUpperOutter
+      parentName: def_c_neckB
+      position: {x: 0.016728029, y: 0.027276034, z: 0.03731372}
+      rotation: {x: -4.8175015e-17, y: -7.2759576e-10, z: -0.000000002091838, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyesackLower
+      parentName: def_c_neckB
+      position: {x: 0.013290607, y: 0.017577775, z: 0.038400494}
+      rotation: {x: 1.2705496e-17, y: -0, z: 5.456968e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_r_eyesackUpper
+      parentName: def_c_neckB
+      position: {x: 0.012760134, y: 0.02956686, z: 0.04037568}
+      rotation: {x: 1.905824e-17, y: -0.000000002910383, z: 7.2759554e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000007}
+    - name: def_r_foreheadIn
+      parentName: def_c_neckB
+      position: {x: 0.0069433437, y: 0.030370442, z: 0.044423074}
+      rotation: {x: -2.1063336e-16, y: -0.0000000022737368, z: -0.000000009117686, w: 1}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000008}
+    - name: def_r_foreheadMid
+      parentName: def_c_neckB
+      position: {x: 0.014246661, y: 0.032033384, z: 0.042896558}
+      rotation: {x: -6.617445e-18, y: 3.6379788e-10, z: -2.7284836e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_foreheadOut
+      parentName: def_c_neckB
+      position: {x: 0.019927932, y: 0.03133055, z: 0.035679117}
+      rotation: {x: 1.7999452e-17, y: -0.0000000014551915, z: 7.2759565e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: def_r_masseter
+      parentName: def_c_neckB
+      position: {x: 0.023305442, y: 0.012414861, z: 0.0201937}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_nasolabiaEdge
+      parentName: def_c_neckB
+      position: {x: 0.012646807, y: 0.003377453, z: 0.035221796}
+      rotation: {x: 3.3616627e-17, y: 3.6379788e-10, z: 0.0000000014551915, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: def_r_nasolabialBulge
+      parentName: def_c_neckB
+      position: {x: 0.012067596, y: 0.010570774, z: 0.039927583}
+      rotation: {x: 2.752857e-17, y: -0.000000002910383, z: 0.0000000010913934, w: 1}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.000001}
+    - name: def_r_nasolabialFurrow
+      parentName: def_c_neckB
+      position: {x: 0.0089486325, y: 0.008594485, z: 0.03959212}
+      rotation: {x: -2.4484546e-18, y: -4.5474735e-10, z: -1.1937118e-10, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: def_r_nostril
+      parentName: def_c_neckB
+      position: {x: 0.00526857, y: 0.012111707, z: 0.044829156}
+      rotation: {x: 2.6469783e-17, y: -0.0000000014551915, z: 0.0000000010913935, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_r_underChin
+      parentName: def_c_neckB
+      position: {x: 0.010321164, y: -0.009514762, z: 0.014701541}
+      rotation: {x: 2.752857e-17, y: -0.000000002910383, z: 0.0000000010913934, w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: def_c_neckRing
+      parentName: def_c_spineC
+      position: {x: 0.000000109076495, y: 0.1080676, z: -0.002052893}
+      rotation: {x: 0.14147425, y: -0.00000004239207, z: 0.0000000325179, w: 0.98994195}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: def_l_clav
+      parentName: def_c_spineC
+      position: {x: -0.01176219, y: 0.06023806, z: -0.0058810604}
+      rotation: {x: -0.0019453153, y: -0.060872637, z: -0.031882327, w: 0.99763435}
+      scale: {x: 1, y: 1.0000013, z: 1.000001}
+    - name: def_l_shoulder
+      parentName: def_l_clav
+      position: {x: -0.05448873, y: -0.0000101593105, z: 0.000000021595023}
+      rotation: {x: -0.0013773171, y: 0.06600515, z: 0.054765806, w: 0.9963143}
+      scale: {x: 0.9999987, y: 1.0000023, z: 1.000001}
+    - name: def_l_shoulderMid
+      parentName: def_l_shoulder
+      position: {x: -0.05669257, y: -0.000006335537, z: 0.0000007131742}
+      rotation: {x: -0.0007261921, y: -0.004067923, z: -0.010958276, w: 0.99993145}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.000001}
+    - name: def_l_elbow
+      parentName: def_l_shoulderMid
+      position: {x: -0.05662618, y: -0.0000015144533, z: 0.00000035149029}
+      rotation: {x: -0.013448654, y: 0.024225326, z: 0.0023663742, w: 0.99961334}
+      scale: {x: 1.0000006, y: 1.0000017, z: 1.0000025}
+    - name: def_l_forearm
+      parentName: def_l_elbow
+      position: {x: -0.049999937, y: 0.0000000038743018, z: -0.00000006146729}
+      rotation: {x: 0.00009529705, y: 0.000000029802322, z: -0.0001907473, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: def_l_wrist
+      parentName: def_l_elbow
+      position: {x: -0.09999984, y: 0.000000042915342, z: -0.000000013113022}
+      rotation: {x: 0.00009525368, y: 0.00000011920929, z: -0.00019066856, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000014}
+    - name: def_l_finIndexA
+      parentName: def_l_wrist
+      position: {x: -0.029875945, y: -0.0011800969, z: 0.013838272}
+      rotation: {x: 0.046671968, y: -0.033138335, z: 0.08819385, w: 0.99445736}
+      scale: {x: 1.000002, y: 0.9999977, z: 1.0000015}
+    - name: def_l_finIndexB
+      parentName: def_l_finIndexA
+      position: {x: -0.017483806, y: 0.000000007152557, z: 0.0000000023841857}
+      rotation: {x: 0.0004402173, y: 0.0000027790652, z: 0.024048125, w: 0.9997108}
+      scale: {x: 0.99999636, y: 1.0000052, z: 1.0000024}
+    - name: def_l_finIndexC
+      parentName: def_l_finIndexB
+      position: {x: -0.011954536, y: 0.00000064849854, z: -0.000000069141386}
+      rotation: {x: -0.0001346798, y: 0.0000676833, z: 0.38297117, w: 0.92376035}
+      scale: {x: 1.0000045, y: 0.9999977, z: 1.0000002}
+    - name: def_l_finMidA
+      parentName: def_l_wrist
+      position: {x: -0.030311428, y: -0.0004629159, z: 0.004868765}
+      rotation: {x: -0.005612575, y: -0.054353677, z: 0.089079045, w: 0.9945246}
+      scale: {x: 1.0000036, y: 0.99999815, z: 1.0000004}
+    - name: def_l_finMidB
+      parentName: def_l_finMidA
+      position: {x: -0.018363494, y: 0.000000022947788, z: 0.000000007152557}
+      rotation: {x: 0.00018343235, y: 0.0000010468065, z: 0.02400446, w: 0.9997119}
+      scale: {x: 0.9999966, y: 1.0000074, z: 1.0000018}
+    - name: def_l_finMidC
+      parentName: def_l_finMidB
+      position: {x: -0.013091885, y: -0.000000019073486, z: 0.000000047683713}
+      rotation: {x: -0.00025673825, y: 0.000019562673, z: 0.38295558, w: 0.92376673}
+      scale: {x: 1.0000035, y: 0.9999986, z: 1.0000012}
+    - name: def_l_finRingCarpal
+      parentName: def_l_wrist
+      position: {x: -0.024947233, y: -0.0011709237, z: -0.0022071528}
+      rotation: {x: 0.00053547346, y: -0.13423127, z: -0.00084216095, w: 0.9909496}
+      scale: {x: 1.0000023, y: 1.0000006, z: 0.9999998}
+    - name: def_l_finPinkyA
+      parentName: def_l_finRingCarpal
+      position: {x: 0.0003056278, y: -0.0017280579, z: -0.0059073707}
+      rotation: {x: -0.13280782, y: 0.03569835, z: 0.08159438, w: 0.98713225}
+      scale: {x: 1.0000048, y: 0.9999966, z: 1.0000004}
+    - name: def_l_finPinkyB
+      parentName: def_l_finPinkyA
+      position: {x: -0.016444327, y: -0.000000047683713, z: -0.000000023841856}
+      rotation: {x: -0.00018174938, y: 0.0000047944463, z: 0.024025312, w: 0.99971133}
+      scale: {x: 0.99999446, y: 1.0000043, z: 1.0000001}
+    - name: def_l_finPinkyC
+      parentName: def_l_finPinkyB
+      position: {x: -0.0076327845, y: 0.00000025272368, z: -0.000000009536743}
+      rotation: {x: -0.000016630329, y: 0.0000029718867, z: 0.38293654, w: 0.9237747}
+      scale: {x: 1.0000128, y: 0.9999948, z: 1.0000033}
+    - name: def_l_finRingA
+      parentName: def_l_finRingCarpal
+      position: {x: -0.0031679869, y: -0.000000023841856, z: 0.000000038146972}
+      rotation: {x: -0.027374895, y: 0.0654455, z: 0.090868585, w: 0.99333304}
+      scale: {x: 1.0000039, y: 0.9999966, z: 1.0000012}
+    - name: def_l_finRingA_helper
+      parentName: def_l_finRingA
+      position: {x: -0.0000009483099, y: 0.005118036, z: -0.0000000667572}
+      rotation: {x: -0.000002976943, y: -0.00000008054848, z: 0.000002148825, w: 1}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000006}
+    - name: def_l_finRingB
+      parentName: def_l_finRingA
+      position: {x: -0.019663123, y: 0.000000028610229, z: 0.000010347366}
+      rotation: {x: -0.00033063057, y: -0.00011612468, z: 0.023941243, w: 0.9997133}
+      scale: {x: 0.999996, y: 1.0000058, z: 1.0000015}
+    - name: def_l_finRingC
+      parentName: def_l_finRingB
+      position: {x: -0.010068759, y: -0.00000089883804, z: 0.000007703304}
+      rotation: {x: -0.00001708125, y: -0.00005073617, z: 0.3824887, w: 0.9239602}
+      scale: {x: 1.0000087, y: 0.999994, z: 1.0000002}
+    - name: def_l_finThumbA
+      parentName: def_l_wrist
+      position: {x: -0.0043926463, y: -0.0054724226, z: 0.007915709}
+      rotation: {x: -0.6800109, y: -0.31566823, z: 0.20044293, w: -0.6306833}
+      scale: {x: 0.9999983, y: 1.0000038, z: 0.99999934}
+    - name: def_l_finThumbB
+      parentName: def_l_finThumbA
+      position: {x: -0.021322913, y: 0.00000006854534, z: 0.00000047087667}
+      rotation: {x: 0.000089645335, y: 0.00002495943, z: -0.03362554, w: -0.9994346}
+      scale: {x: 1.000005, y: 0.9999986, z: 1.0000008}
+    - name: def_l_finThumbC
+      parentName: def_l_finThumbB
+      position: {x: -0.012388295, y: -0.000000011920928, z: 0.00000062584877}
+      rotation: {x: 0.00014153164, y: -0.00012274808, z: 0.38506728, w: 0.9228885}
+      scale: {x: 1.0000035, y: 0.99999696, z: 1.0000017}
+    - name: def_l_outterwrist
+      parentName: def_l_wrist
+      position: {x: 0.00075104594, y: -0.0075741326, z: -0.008021607}
+      rotation: {x: 0.00002388468, y: -0.00000004823896, z: 0.00007151045, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.000001}
+    - name: ja_l_propHand
+      parentName: def_l_wrist
+      position: {x: -0.01748563, y: -0.007413982, z: 0.003036723}
+      rotation: {x: 0.000000028136128, y: -0.000000084854335, z: 0.00004773856, w: 1}
+      scale: {x: 1, y: 0.9999996, z: 1.0000004}
+    - name: def_l_elbowB
+      parentName: def_l_shoulderMid
+      position: {x: -0.059468124, y: 0.000000042915342, z: -0.0032679443}
+      rotation: {x: 0.00000013513409, y: 0.3502951, z: 0.00000009652558, w: 0.9366394}
+      scale: {x: 1.000001, y: 1.0000023, z: 1.0000027}
+    - name: def_l_shoulderTwist
+      parentName: def_l_shoulder
+      position: {x: 0.0000000023841857, y: 0.000000019073486, z: 0.000000021755694}
+      rotation: {x: 0.0000053755934, y: 0.00000002235174, z: -0.00002371764, w: 1}
+      scale: {x: 1.0000008, y: 1.0000018, z: 1.0000007}
+    - name: def_l_shoulderPad
+      parentName: def_l_shoulderTwist
+      position: {x: 0.010055099, y: 0.0190529, z: 0.010403863}
+      rotation: {x: -0.00073077355, y: -0.0003527498, z: -0.4188902, w: 0.90803653}
+      scale: {x: 0.99999624, y: 1.0000035, z: 0.9999999}
+    - name: def_l_Newt
+      parentName: def_c_spineC
+      position: {x: 0.0000007867813, y: 0.039323043, z: -0.09002533}
+      rotation: {x: 1.3552526e-16, y: 3.9443045e-31, z: -0.0000000058207643, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.9999994}
+    - name: def_l_Newt_eye
+      parentName: def_l_Newt
+      position: {x: -0.02647206, y: 0.056518562, z: 0.0024394463}
+      rotation: {x: -2.7105054e-16, y: 4.9303807e-32, z: 0.000000011641531, w: 1}
+      scale: {x: 1.0000001, y: 0.9999995, z: 0.9999994}
+    - name: def_r_clav
+      parentName: def_c_spineC
+      position: {x: 0.011762176, y: 0.060236156, z: -0.0058810655}
+      rotation: {x: 0.99763435, y: 0.031882502, z: -0.060872346, w: 0.0019453183}
+      scale: {x: 1.0000036, y: 1.0000014, z: 1.0000017}
+    - name: def_r_shoulder
+      parentName: def_r_clav
+      position: {x: 0.054489408, y: 0.0000076093606, z: -0.00000010803325}
+      rotation: {x: -0.021681877, y: 0.01041768, z: -0.00838192, w: 0.9996755}
+      scale: {x: 0.9999991, y: 1.000003, z: 1.0000033}
+    - name: def_r_shoulderMid
+      parentName: def_r_shoulder
+      position: {x: 0.056693688, y: 0.000010744735, z: 0.00000044469417}
+      rotation: {x: 0.015597222, y: 0.0035364195, z: 0.030523732, w: 0.9994061}
+      scale: {x: 1.0000007, y: 1.0000012, z: 1.0000011}
+    - name: def_r_elbow
+      parentName: def_r_shoulderMid
+      position: {x: 0.056624666, y: -0.000000487374, z: 0.000000032974608}
+      rotation: {x: -0.008781441, y: 0.02405177, z: 0.00734944, w: 0.9996451}
+      scale: {x: 1.0000026, y: 1.0000017, z: 0.99999946}
+    - name: def_r_forearm
+      parentName: def_r_elbow
+      position: {x: 0.050000705, y: 0.0000006020069, z: 0.0000007367134}
+      rotation: {x: 0.000047567148, y: -0.00000014901161, z: -0.0000953688, w: 1}
+      scale: {x: 1.0000004, y: 1.0000011, z: 0.9999998}
+    - name: def_pen
+      parentName: def_r_forearm
+      position: {x: -0.000000019073486, y: 0.00000044226644, z: -0.000000011920928}
+      rotation: {x: -0.0000023335547, y: 0.00033934877, z: 0.999905, w: 0.013781792}
+      scale: {x: 1.0000002, y: 1.0000019, z: 1.0000002}
+    - name: def_pen_clicker
+      parentName: def_pen
+      position: {x: 0.036134522, y: 0.00000065416094, z: 0.000000039339064}
+      rotation: {x: 0.000023835217, y: 0.00000010942357, z: -0.0000477108, w: 1}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000004}
+    - name: def_pen_laser
+      parentName: def_pen
+      position: {x: 0.033283412, y: -0.0000004310906, z: 0.000000005960464}
+      rotation: {x: -0.00000007850928, y: 0.00000014793021, z: -0.000000027147964, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 0.99999994}
+    - name: def_r_wrist
+      parentName: def_r_elbow
+      position: {x: 0.09999917, y: -0.00000071048737, z: -0.00000068902966}
+      rotation: {x: -0.000000067802816, y: -0.00000023841852, z: -0.00000008450568, w: 1}
+      scale: {x: 1.0000007, y: 1.0000018, z: 1.0000008}
+    - name: def_r_finIndexA
+      parentName: def_r_wrist
+      position: {x: 0.029877815, y: 0.0011824864, z: -0.013836748}
+      rotation: {x: 0.04666982, y: -0.033161912, z: 0.088192746, w: 0.9944568}
+      scale: {x: 1.0000067, y: 0.999993, z: 1.0000017}
+    - name: def_r_finIndexB
+      parentName: def_r_finIndexA
+      position: {x: 0.017481957, y: -0.000000019073486, z: -0.0000011765957}
+      rotation: {x: 0.0004034153, y: -0.0000050999206, z: 0.023989668, w: 0.99971217}
+      scale: {x: 0.9999977, y: 1.0000095, z: 1.0000006}
+    - name: def_r_finIndexC
+      parentName: def_r_finIndexB
+      position: {x: 0.011953111, y: 0.0000006437302, z: -0.00000086069105}
+      rotation: {x: -0.00010772255, y: 0.000059522736, z: 0.38294092, w: 0.9237729}
+      scale: {x: 1.000013, y: 0.99998707, z: 1.0000005}
+    - name: def_r_finMidA
+      parentName: def_r_wrist
+      position: {x: 0.030311434, y: 0.00046262084, z: -0.0048684464}
+      rotation: {x: -0.0055734836, y: -0.054361448, z: 0.08909587, w: 0.9945229}
+      scale: {x: 1.0000129, y: 0.99999255, z: 1.0000006}
+    - name: def_r_finMidB
+      parentName: def_r_finMidA
+      position: {x: 0.01836305, y: -0.00000040531157, z: -0.00000045523046}
+      rotation: {x: 0.0001668203, y: 0.00003313272, z: 0.024020856, w: 0.9997115}
+      scale: {x: 0.999993, y: 1.0000075, z: 0.99999994}
+    - name: def_r_finMidC
+      parentName: def_r_finMidB
+      position: {x: 0.013092591, y: -0.0000005686283, z: 0.0000005034544}
+      rotation: {x: -0.00025490692, y: 0.000025180532, z: 0.38296095, w: 0.9237645}
+      scale: {x: 1.0000261, y: 0.99997824, z: 1.0000004}
+    - name: def_r_finRingCarpal
+      parentName: def_r_wrist
+      position: {x: 0.024948418, y: 0.0011725501, z: 0.0022083449}
+      rotation: {x: 0.0005634138, y: -0.13423134, z: -0.000990768, w: 0.99094945}
+      scale: {x: 1.0000021, y: 1.0000015, z: 0.9999992}
+    - name: def_r_finPinkyA
+      parentName: def_r_finRingCarpal
+      position: {x: -0.00030527264, y: 0.0017286198, z: 0.005907457}
+      rotation: {x: -0.13264321, y: 0.035684347, z: 0.08173908, w: 0.9871429}
+      scale: {x: 1.0000167, y: 0.99999005, z: 0.9999973}
+    - name: def_r_finPinkyB
+      parentName: def_r_finPinkyA
+      position: {x: 0.016440878, y: -0.00000021288172, z: 0.00000010192394}
+      rotation: {x: -0.0003743767, y: 0.00000405684, z: 0.024223736, w: 0.99970657}
+      scale: {x: 0.9999903, y: 1.0000118, z: 1.0000006}
+    - name: def_r_finPinkyC
+      parentName: def_r_finPinkyB
+      position: {x: 0.0076353946, y: -0.0000031518935, z: -0.000000050663946}
+      rotation: {x: -0.000016930568, y: 0.0000030684525, z: 0.3829472, w: 0.92377025}
+      scale: {x: 1.0000321, y: 0.9999697, z: 1.0000007}
+    - name: def_r_finRingA
+      parentName: def_r_finRingCarpal
+      position: {x: 0.0031667557, y: -0.0000007724762, z: -0.00000080123544}
+      rotation: {x: -0.027379414, y: 0.06544899, z: 0.09101714, w: 0.99331903}
+      scale: {x: 1.0000131, y: 0.99999005, z: 1.0000001}
+    - name: def_r_finRingA_helper
+      parentName: def_r_finRingA
+      position: {x: 0.00000087261196, y: -0.0051180837, z: -0.00000002026558}
+      rotation: {x: -0.000000027015627, y: 0.000000051531963, z: -0.00000002591559, w: 1}
+      scale: {x: 1.0000015, y: 1.0000001, z: 1.000001}
+    - name: def_r_finRingB
+      parentName: def_r_finRingA
+      position: {x: 0.0196643, y: 0.000000067055225, z: -0.000009820461}
+      rotation: {x: -0.0003125499, y: -0.00012193617, z: 0.023973418, w: 0.9997126}
+      scale: {x: 0.99999243, y: 1.0000073, z: 1.0000005}
+    - name: def_r_finRingC
+      parentName: def_r_finRingB
+      position: {x: 0.010069057, y: 0.0000004196167, z: -0.0000076693295}
+      rotation: {x: -0.000030256964, y: -0.000047632493, z: 0.38248196, w: 0.92396295}
+      scale: {x: 1.0000305, y: 0.9999753, z: 1.000001}
+    - name: def_r_finThumbA
+      parentName: def_r_wrist
+      position: {x: 0.004393446, y: 0.0054735253, z: -0.007915026}
+      rotation: {x: 0.68008447, y: 0.31566244, z: -0.20046982, w: 0.6305983}
+      scale: {x: 0.9999959, y: 1.0000066, z: 1.0000017}
+    - name: def_r_finThumbB
+      parentName: def_r_finThumbA
+      position: {x: 0.021322858, y: 0.00000043034552, z: -0.0000013494491}
+      rotation: {x: -0.00007024406, y: 0.000043466676, z: 0.033675857, w: 0.99943286}
+      scale: {x: 1.0000024, y: 1.0000031, z: 1.0000026}
+    - name: def_r_finThumbC
+      parentName: def_r_finThumbB
+      position: {x: 0.012387271, y: -0.0000009226799, z: 0.00000089645386}
+      rotation: {x: 0.0001275022, y: -0.00012356542, z: 0.38503706, w: 0.92290115}
+      scale: {x: 0.99999684, y: 1.0000085, z: 1.0000035}
+    - name: def_r_outterwrist
+      parentName: def_r_wrist
+      position: {x: -0.00074350176, y: 0.007572275, z: 0.008024645}
+      rotation: {x: 0.000035800887, y: 0.000000029807733, z: -0.000035624496, w: 1}
+      scale: {x: 1, y: 1.0000014, z: 1.0000005}
+    - name: ja_r_propHand
+      parentName: def_r_wrist
+      position: {x: 0.01748711, y: 0.007416117, z: -0.0030354261}
+      rotation: {x: 0.00004769649, y: 0.000000029809552, z: -0.000047597885, w: 1}
+      scale: {x: 1, y: 1.0000012, z: 1.0000012}
+    - name: def_r_elbowB
+      parentName: def_r_shoulderMid
+      position: {x: 0.05946672, y: -0.0000017251074, z: 0.0032678642}
+      rotation: {x: -0.00000076423106, y: 0.3502948, z: 0.0000004848257, w: 0.93663955}
+      scale: {x: 1.0000017, y: 1.000001, z: 0.99999887}
+    - name: def_r_shoulderTwist
+      parentName: def_r_shoulder
+      position: {x: 0.000000006407499, y: -0.000000017136335, z: 0.0000000052712856}
+      rotation: {x: 0.0000052973623, y: -0.000000052154057, z: -0.000020119825, w: 1}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.000001}
+    - name: def_r_shoulderPad
+      parentName: def_r_shoulderTwist
+      position: {x: -0.01716443, y: -0.0066306386, z: -0.015286399}
+      rotation: {x: -0.00073044054, y: -0.0003519168, z: -0.41892254, w: 0.9080217}
+      scale: {x: 0.9999885, y: 1.0000148, z: 1.0000027}
+    - name: ja_c_propGun
+      parentName: def_c_spineC
+      position: {x: -0.06383007, y: 0.061902296, z: 0.11272228}
+      rotation: {x: 1.06276205e-16, y: -0.000000023283064, z: 0.0000000070770048, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.9999995}
+    - name: def_c_vent
+      parentName: def_c_spineA
+      position: {x: -0.0000000035762786, y: 0.047144808, z: -0.037926976}
+      rotation: {x: 5.0821983e-17, y: -0.000000011641532, z: 0.0000000043655746, w: 1}
+      scale: {x: 1.0000001, y: 0.9999994, z: 0.99999964}
+    - name: def_l_strap_01
+      parentName: def_c_spineA
+      position: {x: -0.059346616, y: 0.037952933, z: 0.00852504}
+      rotation: {x: 0.3598047, y: -0.60693955, z: 0.35661745, w: 0.61236346}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000002}
+    - name: def_l_strap_02
+      parentName: def_l_strap_01
+      position: {x: -8.9406965e-10, y: 0.0000000077486035, z: 0.01889766}
+      rotation: {x: 0.000000059604645, y: -0.000000059604645, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000008}
+    - name: def_l_strap_03
+      parentName: def_l_strap_02
+      position: {x: -0.00000029206277, y: 0.0000000047683715, z: 0.018897532}
+      rotation: {x: 0.000023826957, y: 0.000000059604986, z: -0.00000022351884, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: def_l_strap_04
+      parentName: def_l_strap_03
+      position: {x: 0.0000010144711, y: 0.00000004172325, z: 0.018897533}
+      rotation: {x: -0.000000059604645, y: 0.000000029809073, z: 0.00000028312135, w: 1}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000012}
+    - name: def_r_strap_01
+      parentName: def_c_spineA
+      position: {x: 0.05934672, y: 0.037952673, z: 0.008525023}
+      rotation: {x: 0.35980502, y: 0.6069401, z: -0.35661718, w: 0.6123629}
+      scale: {x: 1.0000012, y: 0.9999999, z: 1.0000004}
+    - name: def_r_strap_02
+      parentName: def_r_strap_01
+      position: {x: 0.0000005769729, y: 0.00000001013279, z: 0.01889754}
+      rotation: {x: 0.000023826957, y: -0.0000021755695, z: -0, w: 1}
+      scale: {x: 1.000001, y: 1.0000011, z: 1.0000007}
+    - name: def_r_strap_03
+      parentName: def_r_strap_02
+      position: {x: 0.00000049352644, y: 0.00000001810491, z: 0.018897558}
+      rotation: {x: -0.000047639012, y: 0.000000804662, z: -0.000000029717853, w: 1}
+      scale: {x: 1.000001, y: 1.0000004, z: 1.0000004}
+    - name: def_r_strap_04
+      parentName: def_r_strap_03
+      position: {x: -0.0000000080466265, y: 0.000000042319297, z: 0.018897576}
+      rotation: {x: 0.000023782253, y: 4.376943e-12, z: -0.0000001490442, w: 1}
+      scale: {x: 1.0000014, y: 1.0000008, z: 1.0000001}
+    - name: def_l_thigh
+      parentName: def_c_hip
+      position: {x: -0.04801078, y: -0.010061719, z: -0.0060019456}
+      rotation: {x: 0.49961844, y: 0.50038135, z: 0.49961838, w: 0.50038135}
+      scale: {x: 1.0000017, y: 1.0000004, z: 1.0000013}
+    - name: def_l_knee
+      parentName: def_l_thigh
+      position: {x: -0.18098004, y: -0.00000038819385, z: 0.0000000023841857}
+      rotation: {x: -0.000000044703487, y: 0.00000007450581, z: 0.032824, w: 0.9994612}
+      scale: {x: 1.0000013, y: 1.0000005, z: 1.0000017}
+    - name: def_l_ankle
+      parentName: def_l_knee
+      position: {x: -0.17311807, y: -0.00000030783934, z: 0.000000013113022}
+      rotation: {x: 0.000000049164626, y: 0.00000007631892, z: -0.5096793, w: 0.8603645}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000008}
+    - name: def_l_ball
+      parentName: def_l_ankle
+      position: {x: -0.05292377, y: 0.000000003427267, z: -0.0000000013899989}
+      rotation: {x: 0.00000010117947, y: 7.245049e-10, z: -0.25525004, w: 0.96687514}
+      scale: {x: 1.0000037, y: 0.999999, z: 1.0000011}
+    - name: def_l_calf_cable_jiggle
+      parentName: def_l_knee
+      position: {x: -0.03221969, y: -0.014332304, z: -0.00969367}
+      rotation: {x: -0.7067433, y: 0.022669286, z: 0.7067433, w: 0.02266918}
+      scale: {x: 1.0000044, y: 1.0000004, z: 1}
+    - name: def_l_footGuard
+      parentName: def_l_knee
+      position: {x: -0.14828187, y: 0.00032969384, z: -0.000013498067}
+      rotation: {x: 1.4480863e-11, y: 8.064661e-12, z: -0.00019077587, w: 1}
+      scale: {x: 1.0000005, y: 0.9999993, z: 0.9999996}
+    - name: def_l_kneeB
+      parentName: def_l_thigh
+      position: {x: -0.18172128, y: 0.0113932295, z: 0.000000009536743}
+      rotation: {x: -0.000000044703487, y: 0.00000013411046, z: 0.03282303, w: 0.9994612}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000012}
+    - name: def_r_thigh
+      parentName: def_c_hip
+      position: {x: 0.048010938, y: -0.010061755, z: -0.0060019526}
+      rotation: {x: 0.50038135, y: -0.49961847, z: 0.5003813, w: -0.49961838}
+      scale: {x: 1.0000017, y: 1.0000027, z: 1.0000017}
+    - name: def_r_knee
+      parentName: def_r_thigh
+      position: {x: 0.18098, y: 0.00000020757317, z: -0.000000007152557}
+      rotation: {x: 0.00000008940697, y: 0.00000011920929, z: 0.03282395, w: 0.9994612}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: def_r_ankle
+      parentName: def_r_knee
+      position: {x: 0.17311804, y: -0.0000000035762786, z: -0.00000000834465}
+      rotation: {x: 0.000000117178, y: -0.000000025332339, z: -0.50967926, w: 0.86036456}
+      scale: {x: 1.0000019, y: 1.0000008, z: 1.0000014}
+    - name: def_r_ball
+      parentName: def_r_ankle
+      position: {x: 0.05292378, y: 0.00000065684316, z: -0.000000003892928}
+      rotation: {x: 0.000000057282485, y: -0.00000021955191, z: -0.25527278, w: 0.9668691}
+      scale: {x: 1.0000019, y: 1.0000029, z: 1.0000031}
+    - name: def_r_calf_cable_jiggle
+      parentName: def_r_knee
+      position: {x: 0.033244606, y: 0.012567402, z: 0.009476352}
+      rotation: {x: 0.022670228, y: 0.7067433, z: -0.022670368, w: 0.70674336}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000008}
+    - name: def_r_footGuard
+      parentName: def_r_knee
+      position: {x: 0.14828184, y: -0.0003299725, z: -0.000000009536743}
+      rotation: {x: -0, y: -0, z: -1.0658141e-14, w: 1}
+      scale: {x: 1.0000012, y: 1.0000019, z: 1.0000013}
+    - name: def_r_kneeB
+      parentName: def_r_thigh
+      position: {x: 0.1817213, y: -0.011393204, z: 0.000000011920928}
+      rotation: {x: 0.00000008940697, y: 0.00000008940697, z: 0.032822996, w: 0.99946123}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.9999998}
+    - name: jx_c_pov
+      parentName: jx_c_delta
+      position: {x: 5.7121666e-15, y: 0.62992, z: 2.2124489e-14}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    - name: jx_c_camera
+      parentName: jx_c_pov
+      position: {x: 5.7121666e-15, y: 1.0575718e-12, z: 2.2124489e-14}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    - name: jx_c_start
+      parentName: jx_c_delta
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

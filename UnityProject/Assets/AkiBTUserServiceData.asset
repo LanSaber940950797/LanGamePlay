@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fa7d544f897874eaf9184e61452e11, type: 3}
+  m_Name: AkiBTUserServiceData
+  m_EditorClassIdentifier: 
+  serializationCollection:
+    serializationPairs:
+    - behaviorTreeSO: {fileID: 11400000, guid: 96e3bc6cc36c4f743b5b5a259cc08042, type: 2}
+      serializedData: {fileID: 0}
+    - behaviorTreeSO: {fileID: 11400000, guid: 9e10a339039f0084cb49f5b0b1855749, type: 2}
+      serializedData: {fileID: 0}
+    - behaviorTreeSO: {fileID: 11400000, guid: 63e04728146474f4d93020720184698b, type: 2}
+      serializedData: {fileID: 0}
+    guids:
+    - 96e3bc6cc36c4f743b5b5a259cc08042
+    - 9e10a339039f0084cb49f5b0b1855749
+    - 63e04728146474f4d93020720184698b
