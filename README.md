@@ -29,3 +29,4 @@
 #### <a href="https://github.com/egametang/ET"><strong>ET</strong></a> - ET是一个开源的游戏客户端（基于unity3d）服务端双端框架，服务端是使用C# .net core开发的分布式游戏服务端，其特点是开发效率高，性能强，双端共享逻辑代码，客户端服务端热更机制完善。
 
 #### <a href="https://github.com/m969/EGamePlay"><strong>EGamePlay</strong></a> - 通用战斗框架，战斗框架思路借鉴参考EGamePlay
+#### <a href="https://github.com/AkiKurisu/AkiBT"><strong>AkiBT</strong></a> - 行为树
