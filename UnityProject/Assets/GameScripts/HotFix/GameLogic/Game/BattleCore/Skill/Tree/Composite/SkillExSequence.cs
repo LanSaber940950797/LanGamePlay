@@ -8,7 +8,7 @@ namespace GameLogic.Battle
     public class SkillExSequence : Composite
     {
         [SerializeField,AkiLabel("在判断改变时打断子结点")]
-        private bool abortOnConditionChanged = true;
+        private bool abortOnConditionChanged = false;
         private SkillTreeSO skill;
         private NodeBehavior runningNode;
         protected override void OnAwake() {

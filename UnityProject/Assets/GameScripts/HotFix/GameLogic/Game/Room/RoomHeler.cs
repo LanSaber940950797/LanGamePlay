@@ -119,7 +119,8 @@ namespace GameLogic
             room.MyId = root.GetComponent<PlayerComponent>().PlayerId;
             Room.IsMaster = false;
             LSWorld serverWorld = MemoryPackHelper.Deserialize(typeof(LSWorld), room2CJoinRoom.WolrdData, 0, room2CJoinRoom.WolrdData.Length) as LSWorld;
-            serverWorld.SceneType = SceneType.LockStepClient;
+            serverWorld.SceneType = SceneType.Battle;
+            serverWorld.SetIdGenerator(room2CJoinRoom.IdGenerator);
             room.Init(room2CJoinRoom.StartTime, room2CJoinRoom.Frame, serverWorld);
             room.AddComponent<RoomPingComponent>();
             GameModule.UI.ShowUI<BattlePage>();

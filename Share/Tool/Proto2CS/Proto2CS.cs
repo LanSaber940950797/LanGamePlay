@@ -64,10 +64,12 @@ namespace ET
                 string fileName = Path.GetFileNameWithoutExtension(s);
                 string[] ss2 = fileName.Split('_');
                 string protoName = ss2[0];
+                //如果protName包含Inner
+                bool isInner = protoName.Contains("Inner");
                 string cs = ss2[1];
                 int startOpcode = int.Parse(ss2[2]);
                 Console.WriteLine($"{protoName} {cs} {startOpcode}");
-                ProtoFile2CS(fileName, protoName, cs, startOpcode);
+                ProtoFile2CS(fileName, protoName, cs, startOpcode,isInner);
             }
 
             RemoveUnusedMetaFiles(clientMessagePath);
@@ -75,7 +77,7 @@ namespace ET
             // RemoveUnusedMetaFiles(clientServerMessagePath);
         }
 
-        private static void ProtoFile2CS(string fileName, string protoName, string cs, int startOpcode)
+        private static void ProtoFile2CS(string fileName, string protoName, string cs, int startOpcode, bool isInner)
         {
             msgOpcode.Clear();
 
@@ -241,7 +243,10 @@ namespace ET
             if (cs.Contains('C'))
             {
                 GenerateCS(result, clientMessagePath, proto);
-                GenerateCS(result, serverMessagePath, proto);
+                if (!isInner)
+                {
+                    GenerateCS(result, serverMessagePath, proto);
+                }
                 // GenerateCS(result, clientServerMessagePath, proto);
             }
 

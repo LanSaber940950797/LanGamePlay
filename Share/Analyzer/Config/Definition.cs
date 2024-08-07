@@ -84,6 +84,8 @@
 
         public const string ILSUpdateInterface = "ET.ILSUpdate";
         public const string LSUpdateMethod = "LSUpdate";
+        public const string ILSLateUpdateInterface = "ET.ILSLateUpdate";
+        public const string LSLateUpdateMethod = "LSLateUpdate";
 
         public const string ETLog = "ET.Log";
 

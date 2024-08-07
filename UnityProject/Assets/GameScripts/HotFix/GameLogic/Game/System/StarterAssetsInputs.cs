@@ -14,6 +14,7 @@ namespace GameLogic
 		public Vector2 look;
 		public bool jump;
 		public Vector3 targetDirection;
+		
 		public bool sprint;
 
 		[Header("Movement Settings")]

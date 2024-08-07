@@ -72,7 +72,11 @@ namespace ET
 
             if (oneTypeSystems.QueueFlag[LSQueneUpdateIndex.LSUpdate])
             {
-                lsWorld.RegisterSystem(this);
+                lsWorld.RegisterUpdateSystem(this);
+            }
+            if (oneTypeSystems.QueueFlag[LSQueneUpdateIndex.LSLateUpdate])
+            {
+                lsWorld.RegisterLateUpdateSystem(this);
             }
         }
     }

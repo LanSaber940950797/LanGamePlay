@@ -42,7 +42,7 @@ namespace ET
         }
 
         private readonly LSUpdater updater = new();
-        
+        private readonly LSLateUpdater lateUpdater = new();
         [BsonIgnore]
         [MemoryPackIgnore]
         public Fiber Fiber { get; set; }
@@ -56,6 +56,11 @@ namespace ET
             return ++this.idGenerator;
         }
 
+        public void SetIdGenerator(long startId)
+        {
+            this.idGenerator = startId;
+        }
+
         public TSRandom Random { get; set; }
         
         [BsonIgnore]
@@ -67,12 +72,17 @@ namespace ET
         public void Update()
         {
             this.updater.Update();
-            //++this.Frame;
+            this.lateUpdater.Update();
+            ++this.Frame;
         }
 
-        public void RegisterSystem(LSEntity entity)
+        public void RegisterUpdateSystem(LSEntity entity)
         {
             this.updater.Add(entity);
+        }
+        public void RegisterLateUpdateSystem(LSEntity entity)
+        {
+            this.lateUpdater.Add(entity);
         }
         
         public new K AddComponent<K>(bool isFromPool = false) where K : LSEntity, IAwake, new()

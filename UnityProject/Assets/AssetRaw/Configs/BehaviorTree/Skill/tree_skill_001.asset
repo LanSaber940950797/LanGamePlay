@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbc11124309461c898e69e2c33d4dc7, type: 3}
+  m_Name: tree_skill_001
+  m_EditorClassIdentifier: 
+  root:
+    rid: 3605641801813196800
+  blockData: []
+  Description: 
+  sharedVariables: []
+  externalSkill: {fileID: 0}
+  description: 
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3605641801813196800
+      type: {class: Root, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 400
+          y: 300
+          width: 100
+          height: 100
+        description: 
+        guid: 
+        child:
+          rid: -2

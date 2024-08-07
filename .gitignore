@@ -95,3 +95,4 @@ crashlytics-build.properties
 UnityProject/Assets/GameScripts/HotFix/GameProto/GameConfig
 UnityProject/Assets/GameScripts/HotFix/GameProto/Generate
 UnityProject/.vsconfig
+Server/Model/Generate

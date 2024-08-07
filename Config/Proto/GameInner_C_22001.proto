@@ -61,3 +61,5 @@ message Room2C_AdjustUpdateTime // IRoomMessage
 
 	int32 DiffTime = 3;
 }
+
+

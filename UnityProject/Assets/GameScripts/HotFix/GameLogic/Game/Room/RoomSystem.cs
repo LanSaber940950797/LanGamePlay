@@ -36,7 +36,7 @@ namespace GameLogic
             self.AddComponent<BattleRootView>();
             if (serverWorld == null)
             {
-                self.LSWorld = new LSWorld(SceneType.LockStepClient);
+                self.LSWorld = new LSWorld(SceneType.Battle);
                 LSWorld lsWorld = self.LSWorld;
                 lsWorld.Frame = frame + 1;
                 lsWorld.AddComponent<FrameStateComponent>();

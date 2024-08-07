@@ -8,7 +8,8 @@ namespace ET
     {
         public const int None = -1;
         public const int LSUpdate = 0;
-        public const int Max = 1;
+        public const int LSLateUpdate = 1;
+        public const int Max = 2;
     }
     
     [Code]
@@ -117,6 +118,32 @@ namespace ET
                 try
                 {
                     iLSUpdateSystem.Run(entity);
+                }
+                catch (Exception e)
+                {
+                    Log.Error(e);
+                }
+            }
+        }
+        
+        public void LSLateUpdate(LSEntity entity)
+        {
+            if (entity is not ILSUpdate)
+            {
+                return;
+            }
+            
+            List<SystemObject> iLSLateUpdateSystems = TypeSystems.GetSystems(entity.GetType(), typeof (ILSLateUpdateSystem));
+            if (iLSLateUpdateSystems == null)
+            {
+                return;
+            }
+
+            foreach (ILSLateUpdateSystem iLSLateUpdateSystem in iLSLateUpdateSystems)
+            {
+                try
+                {
+                    iLSLateUpdateSystem.Run(entity);
                 }
                 catch (Exception e)
                 {

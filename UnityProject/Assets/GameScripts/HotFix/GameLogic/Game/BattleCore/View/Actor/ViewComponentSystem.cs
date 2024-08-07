@@ -19,7 +19,7 @@ namespace GameLogic.Battle
             {
                 self.LoadMode(self.ModePath).NoContext();
             }
-            self.Owner.AddEventListener<TSVector>(BattleEvent.ForceChangePosition, OnForceChangePosition, self);
+            //self.Owner.AddEventListener<TSVector>(BattleEvent.ForceChangePosition, OnForceChangePosition, self);
         }
 
         [EntitySystem]

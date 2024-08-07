@@ -51,14 +51,7 @@ namespace GameLogic.Battle
             states.States.AddRange(self.InputFrames);
             self.InputFrames.Clear();
         }
-        
-        // public static void SendFrameState<T>(this T self, StateFrame state) where T : LSEntity, IActionExecution
-        // {
-        //     state.ActorId = self.ActionAbilityAbility.Owner.Id;
-        //     state.Frame = self.Frame();
-        //     self.LSWorld().GetComponent<FrameStateComponent>().SendFrameStateInner(state);
-        // }
-        
+
         public static void SendFrameState<T, TSnapshot>(this T self, TSnapshot snapshot) 
             where T : LSEntity, IActionExecution where TSnapshot : ISnapshot
         {

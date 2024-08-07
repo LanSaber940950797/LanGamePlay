@@ -29,8 +29,6 @@ namespace ET
 		Client = 1 << 30,
 		Battle = 1L << 31,
 		GameWorld = 1L << 32,
-		LockStepView = 1L << 33,
-		DemoView = 1L << 34,
 		NetClient = 1L << 35,
 
 		All = long.MaxValue,

@@ -25,7 +25,11 @@ namespace GameLogic
             response.WolrdData = room.GetLSWorldData().ToArray();
             response.StartTime = room.StartTime;
             response.Frame = room.AuthorityFrame;
-            //response.WolrdData = MongoHelper.Serialize(room.LSWorld);
+            
+            //因为不是帧同步，服务器跟客户端的组件创建顺序跟数量都是不一致的，所以要给客户端一个初始id段
+            //防止服务器同步组件数据是id冲突，按目前情况不存在客户端直接同步组件数据，所以客户端用统一段的id，后面看情况这里再按玩家顺序分配
+            response.IdGenerator = (long)1 << 32;
+            response.WolrdData = MongoHelper.Serialize(room.LSWorld);
             //GameEvent.Get<ILoginUI>().OnPlayerJonin();
             var actorComponent = world.GetComponent<ActorComponent>();
              ActorCreateInfo info = new ActorCreateInfo()

@@ -92,7 +92,7 @@ message Room2C_JoinRoom // IRoomResponse
 	bytes WolrdData = 7;
 	int64 StartTime = 8;
 	int32 Frame = 9;
-	//string WoldData = 10; //先用字符串替换，MemoryPack有问题
+	int64 IdGenerator = 10;
 }
 
 

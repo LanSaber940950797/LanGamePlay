@@ -1,6 +1,8 @@
 ﻿using ET;
+using TEngine;
 using TrueSync;
 using UnityEngine;
+using Log = ET.Log;
 
 namespace GameLogic.Battle
 {
@@ -48,7 +50,6 @@ namespace GameLogic.Battle
             var viewComponent = self.GetComponent<ViewComponent>();
             await viewComponent.LoadMode("Player");
             var transformComponent = self.Actor.GetComponent<TransformComponent>();
-            self.AddComponent<ActorAnimationComponent>();
             self.Controller = viewComponent.ModelGo.GetComponent<ThirdPersonSystem>();
             self.Inputs = viewComponent.ModelGo.GetComponent<StarterAssetsInputs>();
             self.Controller.enabled = false;
@@ -70,7 +71,7 @@ namespace GameLogic.Battle
                 return;
             }
 
-            
+           
             if (action.Snapshot.MoveType == (int)MoveType.MoveDir)
             {
                 Vector3 dir = action.Snapshot.Velocity.ToVector();
