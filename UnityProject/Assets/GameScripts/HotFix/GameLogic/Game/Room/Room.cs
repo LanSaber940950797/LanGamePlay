@@ -7,7 +7,7 @@ namespace GameLogic
     
     
     [ComponentOf(typeof(Scene))]
-    public class Room : Entity, IScene, IAwake, IUpdate
+    public class Room : Entity, IScene, IAwake<bool>, IUpdate
     {
         public Fiber Fiber { get; set; }
         public SceneType SceneType { get; set; }

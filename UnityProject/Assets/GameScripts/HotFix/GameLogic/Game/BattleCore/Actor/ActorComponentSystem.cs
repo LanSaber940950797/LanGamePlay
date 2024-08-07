@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using ET;
 
@@ -73,7 +74,7 @@ namespace GameLogic.Battle
         private static Actor CreateActorInner(this ActorComponent self, ActorCreateInfo info)
         {
             var actor = self.AddChild<Actor, ActorCreateInfo>(info);
-            var transform = actor.Transform;
+            var transform = actor.GetComponent<TransformComponent>();
             transform.Position = info.Position;
             transform.Rotation = info.Rotation;
             self.OnActorCreate(actor, info);
@@ -112,24 +113,23 @@ namespace GameLogic.Battle
             {
                 self.SystemActor = actor;
             }
-            if (actor.ActorType != ActorType.System)
-            {
-                if (info == null)
-                {
-                    info = new ActorCreateInfo()
-                    {
-                        ActorType = actor.ActorType,
-                        DescId = actor.DescId,
-                        PlayerId = actor.PlayerId,
-                        Position = actor.Transform.Position,
-                        Rotation = actor.Transform.Rotation,
-                        SideType = actor.SideType
-                    };
-                }
-                // 发送这是发送给前端展示的，所以接受的前端显示组件得先创建出来，但同步world的时候触发，world的组件还没创建出来
-                //所以前端显示组件得先world创建，所以这里要发送给room
-                GameHeler.Room().SendEvent(BattleEvent.ActorCreateView, actor, info);
-            }
+            // if (actor.ActorType != ActorType.System)
+            // {
+            //     if (info == null)
+            //     {
+            //         var transform = actor.GetComponent<TransformComponent>();
+            //         info = new ActorCreateInfo()
+            //         {
+            //             ActorType = actor.ActorType,
+            //             DescId = actor.DescId,
+            //             PlayerId = actor.PlayerId,
+            //             Position = transform.Position,
+            //             Rotation = transform.Rotation,
+            //             SideType = actor.SideType
+            //         };
+            //     }
+            //     self.Parent.SendEvent(BattleEvent.ActorCreateView, actor, info);
+            // }
         }
         
         [EntitySystem]
@@ -139,6 +139,16 @@ namespace GameLogic.Battle
             {
                 self.OnActorCreate(actor);
             }
+        }
+
+        public static List<EntityRef<Actor>> GetAllActors(this ActorComponent self)
+        {
+            List<EntityRef<Actor>> actors = new List<EntityRef<Actor>>();
+            foreach (Actor actor in self.Children.Values)
+            {
+                actors.Add(actor);
+            }
+            return  actors;
         }
     }
 }

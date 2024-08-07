@@ -201,16 +201,3 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: BehaviorTree
-      GroupDesc: "\u884C\u4E3A\u6811"
-      AssetTags: BehaviorTree
-      ActiveRuleName: EnableGroup
-      Collectors:
-      - CollectPath: Assets/AssetRaw/BehaviorTree
-        CollectorGUID: 89a4ff96b6f663747abb49a0fce6e939
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 

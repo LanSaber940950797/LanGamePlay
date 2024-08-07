@@ -4,15 +4,10 @@ using UnityEngine;
 namespace GameLogic.Battle
 {
     [ComponentOf]
-    public class ActorView : Entity, IAwake<Actor>,IUpdate
+    public class ActorView : Entity, IAwake<Actor>
     {
-        public GameObject GameObject { get; set; }
-        public Transform Transform { get; set; }
         private EntityRef<Actor> actor;
-        public ThirdPersonSystem Controller;
-        public StarterAssetsInputs Inputs;
-        public bool IsInitPos = false;
-
+      
         public Actor Actor
         {
             get
@@ -24,8 +19,6 @@ namespace GameLogic.Battle
                 actor = value;
             }
         }
-        public Vector3 Position;
-        public Quaternion Rotation;
         public float totalTime;
         public float t;
         

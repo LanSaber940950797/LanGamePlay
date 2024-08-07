@@ -2,6 +2,19 @@
 
 namespace GameLogic.Battle
 {
+   
+    
+    public enum BattleWorldType
+    {
+        TwoDimensional,
+        ThreeDimensional
+    }
+
+    public static class BattleConstValue
+    {
+        public static BattleWorldType WorldType = BattleWorldType.ThreeDimensional;
+    }
+    
     public static class BattleHelper
     {
         public static int FixFrameTime(this LSEntity self)
@@ -21,7 +34,7 @@ namespace GameLogic.Battle
             return self.LSWorld().Frame;
         }
 
-        public static bool IsMaster(this Entity self)
+        public static bool IsServer(this Entity self)
         {
             return Room.IsMaster;
         }

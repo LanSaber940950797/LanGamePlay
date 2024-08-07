@@ -51,10 +51,7 @@ namespace GameLogic.Battle
 
         private static void ApplyAction(this CureAction self)
         {
-           
-            
-            self.Target?.GetComponent<AttributeComponent>().ModifyAttribute(AttributeType.Hp, self.CureValue);
-            
+            self.Target?.GetComponent<NumericComponent>().Modify(NumericType.Hp, self.CureValue);
         }
 
         //后置处理

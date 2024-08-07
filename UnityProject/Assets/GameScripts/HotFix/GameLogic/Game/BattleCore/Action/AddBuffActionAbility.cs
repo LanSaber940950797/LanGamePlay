@@ -22,6 +22,7 @@ namespace GameLogic.Battle
             return false;
            
         }
+        
         public static void OnFrameState(this AddBuffActionAbility self, StateAddBuff state)
         {
             if (BattleActionHelper.TryMakeActionInner(self, out AddBuffAction action, false))
@@ -31,6 +32,5 @@ namespace GameLogic.Battle
                 action.DoAction();
             }
         }
-  
     }
 }

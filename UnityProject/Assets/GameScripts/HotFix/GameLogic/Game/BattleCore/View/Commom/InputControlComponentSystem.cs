@@ -11,7 +11,7 @@ namespace GameLogic.Battle
         [EntitySystem]
         public  static void Awake(this InputControlComponent self)
         {
-            self.MyId = self.Root().GetComponent<PlayerComponent>().PlayerId;
+           
             self.InputDic = new Dictionary<InputType, KeyCode>
             {
                 { InputType.Jump, KeyCode.Space },
@@ -28,21 +28,21 @@ namespace GameLogic.Battle
             self.ReflshMoveDir();
             self.ReflshKeyCode();
             self.ReflshKeyCode();
-            //RefreshAttackDir();
+            self.RefreshAttackDir();
             //CheckCastSkill();
         }
         
        
         
-        // private static void RefreshAttackDir(this InputControlCompoent self)
-        // {
-        //     self.attackPos = Input.mousePosition;
-        //     self.attackPos.z = 10;
-        //     self.attackPos = Camera.main.ScreenToWorldPoint(self.attackPos);
-        //     //self.attackDir = self.attackPos - actor.transformComponet.GetCenterPosition();
-        //     self.attackDir.z = 0;
-        //     self.attackDir.Normalize();
-        // }
+        private static void RefreshAttackDir(this InputControlComponent self)
+        {
+            self.AttackPos = Input.mousePosition;
+            self.AttackPos.z = 10;
+            self.AttackPos = Camera.main.ScreenToWorldPoint(self.AttackPos);
+            //self.attackDir = self.attackPos - actor.transformComponet.GetCenterPosition();
+            self.AttackDir.z = 0;
+            self.AttackDir.Normalize();
+        }
         
         private static void ReflshMoveDir(this InputControlComponent self)
         {

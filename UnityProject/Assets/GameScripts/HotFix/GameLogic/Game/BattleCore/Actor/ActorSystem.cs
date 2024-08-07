@@ -24,7 +24,7 @@ namespace GameLogic.Battle
         private static void InitDataComponents(this Actor self)
         {
             self.AddComponent<TransformComponent>();
-            self.AddComponent<AttributeComponent>();
+            self.AddComponent<NumericComponent>();
             self.AddComponent<StatusComponent>();
             self.AddComponent<SkillComponent>();
         }
@@ -53,7 +53,7 @@ namespace GameLogic.Battle
             }
             else
             {
-                if (self.IsMaster())
+                if (self.IsServer())
                 {
                     self.AddComponent<ActorAIComponent>();
                 }

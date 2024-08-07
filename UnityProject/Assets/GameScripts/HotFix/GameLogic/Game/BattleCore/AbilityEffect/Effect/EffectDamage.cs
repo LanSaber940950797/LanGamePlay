@@ -54,7 +54,7 @@ namespace GameLogic.Battle
             }
             else if(self.Effect.Desc.Param1 == 2)
             {
-                return actor.GetComponent<AttributeComponent>().GetAttribute(AttributeType.Attack) * self.Effect.Desc.Param2 / 1000;
+                return actor.GetComponent<NumericComponent>()[NumericType.Attack] * self.Effect.Desc.Param2 / 1000;
             }
 
             return 0;

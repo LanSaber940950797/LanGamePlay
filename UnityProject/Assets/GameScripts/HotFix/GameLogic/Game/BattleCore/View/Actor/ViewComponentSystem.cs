@@ -1,4 +1,4 @@
-﻿using ET;
+﻿ using ET;
 using TEngine;
 using TrueSync;
 using UnityEngine;
@@ -19,7 +19,6 @@ namespace GameLogic.Battle
             {
                 self.LoadMode(self.ModePath).NoContext();
             }
-            //self.Owner.AddEventListener<TSVector>(BattleEvent.ForceChangePosition, OnForceChangePosition, self);
         }
 
         [EntitySystem]
@@ -28,11 +27,7 @@ namespace GameLogic.Battle
             self.Owner?.RemoveAllListenerByOwner(self);
         }
         
-        [EntitySystem]
-        public static void Update(this ViewComponent self)
-        {
 
-        }
         
         public static async ETTask LoadMode(this ViewComponent self, string path)
         {
@@ -45,25 +40,20 @@ namespace GameLogic.Battle
                 GameObject.Destroy(self.ModelGo);
             }
             self.ModelGo = await GameModule.Resource.LoadGameObjectAsync(path);
-            self.Go = self.ModelGo;
             var room = self.Scene<Room>();
-            room.GetComponent<BattleRootView>().AddGameObject(self, self.Go);
-            self.Animator = self.ModelGo.GetComponent<Animator>();
-            if(self.Animator == null)
-            {
-                self.Animator = self.ModelGo.GetComponentInChildren<Animator>();
+            if (BattleConstValue.WorldType == BattleWorldType.TwoDimensional)
+            { //2d世界下，模型动作会改变角色y坐标，所以需要创建一个gameobject承载
+                self.Go = room.GetComponent<BattleRootView>().CreateGameObject(self);
+                self.ModelGo.transform.SetParent(self.Go.transform);
             }
-            //self.Controller = self.ModelGo.GetComponent<CharacterController>();
+            else //3d世界直接使用模型gameobject
+            {
+                self.Go = self.ModelGo;
+                room.GetComponent<BattleRootView>().AddGameObject(self, self.Go);
+            }
         }
         
-        private static void OnForceChangePosition(this Entity entity, TSVector position)
-        {
-            var self = entity.As<ViewComponent>();
-            if (self.Go != null)
-            {
-                self.Go.transform.position = position.ToVector();
-            }
-        }
+      
         
     }
     

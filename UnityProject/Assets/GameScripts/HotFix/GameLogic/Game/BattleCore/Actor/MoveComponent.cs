@@ -40,22 +40,6 @@ namespace GameLogic.Battle
             self.MaxSpeed = self.Speed;
         }
         
-        [LSEntitySystem]
-        public static void LSUpdate(this MoveComponent self)
-        {
-            // if (self.MaxSpeed <= 0)
-            // {
-            //     return;
-            // }
-            //
-            // if (self.Velocity.sqrMagnitude > FP.Epsilon)
-            // {
-            //     var velocity = self.Velocity.normalized * self.MaxSpeed * LSConstValue.UpdateInterval / 1000;
-            //     self.Actor.SendEvent(BattleEvent.Move, velocity);
-            //     self.Velocity = TSVector.zero;
-            // }
-        }
-
         
 
         public static void MoveDir(this MoveComponent self, TSVector dir)
@@ -69,7 +53,6 @@ namespace GameLogic.Battle
                 }
                 action.Snapshot.Velocity = dir;
                 action.Snapshot.MoveType = (int)MoveType.MoveDir;
-                //action.MaxSpeed = self.MaxSpeed;
                 action.DoAction();
             }
         }
@@ -115,6 +98,12 @@ namespace GameLogic.Battle
                 action.Snapshot.MoveType = (int)MoveType.Jump;
                 action.DoAction();
             }
+        }
+
+        public static void SetMaxSpeed(this MoveComponent self, FP maxSpeed)
+        {
+            self.MaxSpeed = maxSpeed;
+            self.Parent.GetComponent<RvoSteerComponent>()?.RefreshRVOAgentSpeed(maxSpeed);
         }
     }
 }

@@ -12,7 +12,6 @@ namespace GameLogic.Battle
         public GameObject Go;
         public GameObject ModelGo;
         public string  ModePath = null;
-        public Animator Animator;
         public EntityRef<LSEntity> owner;
         public LSEntity Owner => owner;
     }

@@ -75,25 +75,17 @@ namespace GameLogic.Battle
         /// 应用伤害
         public static void ApplyDamage(this DamageAction self)
         {
-            self.PreProcess();
+           
 
             Log.Debug($"DamageAction ApplyDamage");
             
-            var cur = self.Target.GetComponent<AttributeComponent>().GetAttribute(AttributeType.Hp);
+            var cur = self.Target.GetComponent<NumericComponent>().GetAsLong(NumericType.Hp);
             cur -= self.RealDamageValue;
             if (cur <= 0)
             {
                 cur = 0;
             }
-            self.Target.GetComponent<AttributeComponent>().SetAttribute(AttributeType.Hp, cur);
-            self.PostProcess();
-
-            // if (self.Target.CheckDead())
-            // {
-            //     self.Target.OnDead();
-            // }
-
-           
+            self.Target.GetComponent<NumericComponent>().Set(NumericType.Hp, cur);
         }
 
         /// 后置处理
@@ -107,7 +99,9 @@ namespace GameLogic.Battle
 
         public static void DoAction(this DamageAction self)
         {
+            self.PreProcess();
             self.ApplyDamage();
+            self.PostProcess();
             self.SendFrameState();
             self.FinishAction();
         }

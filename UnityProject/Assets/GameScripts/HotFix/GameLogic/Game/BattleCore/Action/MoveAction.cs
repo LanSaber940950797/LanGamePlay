@@ -27,6 +27,23 @@ namespace GameLogic.Battle
         public bool IsSync { get; set; }
         public bool IsSnapshot { get; set; }
         public StateMove Snapshot;
+
+        public TrueSync.TSVector Velocity
+        {
+            get=> Snapshot.Velocity;
+            set=> Snapshot.Velocity = value;
+        }
+
+        public TrueSync.TSVector Position
+        {
+            get=> Snapshot.Position;
+            set=> Snapshot.Position = value;
+        }
+        public int MoveType
+        {
+            get=> Snapshot.MoveType;
+            set=> Snapshot.MoveType = value;
+        }
     }
 
     [EntitySystemOf(typeof(MoveAction))]

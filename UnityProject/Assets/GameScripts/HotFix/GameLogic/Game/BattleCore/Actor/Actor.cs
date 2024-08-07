@@ -17,9 +17,5 @@ namespace GameLogic.Battle
         public int DescId;
       
         public long PlayerId;
-        
-        [MemoryPackIgnore]
-        [BsonIgnore]
-        public TransformComponent Transform => GetComponent<TransformComponent>();
     }
 }

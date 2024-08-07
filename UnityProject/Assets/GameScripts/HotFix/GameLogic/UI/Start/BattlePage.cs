@@ -90,13 +90,13 @@ namespace GameLogic
                 return;
             }
 
-            if (actorView.Inputs == null)
-            {
-                return;
-            }
-
-            var playerInput = actorView.Inputs.GetComponent<PlayerInput>();
-            playerInput.enabled = true;
+            // if (actorView.Inputs == null)
+            // {
+            //     return;
+            // }
+            //
+            // var playerInput = actorView.Inputs.GetComponent<PlayerInput>();
+            // playerInput.enabled = true;
             IsInitInput = true;
         }
     }
