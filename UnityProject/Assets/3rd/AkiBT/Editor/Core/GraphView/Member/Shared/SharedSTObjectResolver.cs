@@ -64,10 +64,12 @@ namespace Kurisu.AkiBT.Editor
         }
         private static List<string> GetList(ITreeView treeView)
         {
-            return treeView.SharedVariables
+            var list = treeView.SharedVariables
             .Where(x => x is SharedSObject sharedObject && sharedObject.ConstraintTypeAQM == typeof(T).AssemblyQualifiedName)
             .Select(v => v.Name)
             .ToList();
+            list.Add(string.Empty);
+            return  list;
         }
         private void BindProperty()
         {

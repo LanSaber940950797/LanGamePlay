@@ -13,6 +13,7 @@ namespace GameLogic.Battle
     public static class BattleConstValue
     {
         public static BattleWorldType WorldType = BattleWorldType.ThreeDimensional;
+        public static bool IsStateSync = true;
     }
     
     public static class BattleHelper

@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 95043156393723858}
   - component: {fileID: 6866842253499204374}
   - component: {fileID: 4178266556152855846}
+  - component: {fileID: 8679188894175494501}
   m_Layer: 0
   m_Name: Warrior2d
   m_TagString: Untagged
@@ -399,7 +400,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8074deaf8cb739a4d84f87a12c344531, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -433,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a55ffddc734ed19dd04d914db5a2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimancerComponent: {fileID: 0}
+  AnimancerComponent: {fileID: 6866842253499204374}
   IdleAnimation: {fileID: 74561965336903780}
   RunAnimation: {fileID: 74226702853297896}
   JumpAnimation: {fileID: 0}
@@ -444,6 +445,18 @@ MonoBehaviour:
   DeadAnimation: {fileID: 0}
   AnimationClips: []
   AnimationClipNames: []
+--- !u!210 &8679188894175494501
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296509332237202}
+  m_Enabled: 1
+  m_SortingLayerID: -838771293
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1338721746184590
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine;
 namespace GameLogic.Battle
 {
     [ComponentOf(typeof(Actor))]
-    public class ActorAIComponent : LSEntity, IAwake,ILSUpdate
+    public class ActorAIComponent : LSEntity, IAwake,ILSUpdate, IAwake<string>
     {
         public BattleAITreeSO AITreeSo;
         public string AITreeName;
@@ -30,14 +30,8 @@ namespace GameLogic.Battle
     public static  partial class ActorAIComponentSystem
     {
         [EntitySystem]
-        public static void Awake(this ActorAIComponent self)
+        public static void Awake(this ActorAIComponent self, string treeName)
         {
-            //todo 根据配置获取行为树名字
-            string treeName = null;
-            if (self.Actor.ActorType == ActorType.Player)
-            {
-                treeName = "tree_ai_player";
-            }
             if (string.IsNullOrEmpty(treeName))
             {
                return; 
@@ -47,8 +41,12 @@ namespace GameLogic.Battle
             self.LoadAITree().Forget();
         }
         
-        public static async UniTask LoadAITree(this ActorAIComponent self)
+        public static async UniTask LoadAITree(this ActorAIComponent self, string treeName = null)
         {
+            if (treeName != null)
+            {
+                self.AITreeName = treeName;
+            }
             if (self.AITreeSo == null)
             {
                 self.AITreeSo = await GameModule.Resource.LoadAssetAsync<BattleAITreeSO>(self.AITreeName);

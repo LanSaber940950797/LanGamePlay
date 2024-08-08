@@ -28,7 +28,7 @@ namespace GameLogic.Battle
     /// </summary>
     [ChildOf(typeof(SkillComponent))]
     [MemoryPackable]
-    public partial class SkillAbility : LSEntity, IAwake<SpellDesc>, ILSUpdate, IAbilityEntity,ISerializeToEntity,IDeserialize
+    public partial class SkillAbility : LSEntity, IAwake<int, int>, ILSUpdate, IAbilityEntity,ISerializeToEntity,IDeserialize
     {
         [MemoryPackIgnore]
         [BsonIgnore]
@@ -71,11 +71,12 @@ namespace GameLogic.Battle
     public static partial class SkillAbilitySystem
     {
         [EntitySystem]
-        public static void Awake(this SkillAbility self, SpellDesc desc)
+        public static void Awake(this SkillAbility self, int skillId, int skillLevel)
         {
+            SpellDesc desc = ConfigSystem.Instance.Tables.TbSpell.Get(skillId, skillLevel);
             self.Desc = desc;
-            self.SkillId = self.Level;
-            self.Level = desc.Level;
+            self.SkillId = skillId;
+            self.Level = skillLevel;
             self.MaxHitTimes = (int)Math.Max(1, desc.MaxHit);
             self.CoolDownTime = self.Desc.CoolDownTime;
             //添加效果组件

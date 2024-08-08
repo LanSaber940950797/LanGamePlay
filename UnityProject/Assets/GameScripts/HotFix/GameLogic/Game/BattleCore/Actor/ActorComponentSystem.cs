@@ -146,7 +146,11 @@ namespace GameLogic.Battle
             List<EntityRef<Actor>> actors = new List<EntityRef<Actor>>();
             foreach (Actor actor in self.Children.Values)
             {
-                actors.Add(actor);
+                if (actor.ActorType != ActorType.System)
+                {
+                    actors.Add(actor);
+                }
+                
             }
             return  actors;
         }

@@ -19,6 +19,7 @@ namespace GameLogic.Battle
         public static void Awake(this ActorView self, Actor actor)
         {
             self.Actor = actor;
+            self.AddComponent<ViewComponent, LSEntity, string>(self.Actor, null);
             self.SendEvent().NoContext();
         }
 

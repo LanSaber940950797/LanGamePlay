@@ -1,4 +1,5 @@
 ﻿using ET;
+using UnityEngine;
 
 namespace GameLogic.Battle
 {
@@ -25,70 +26,70 @@ namespace GameLogic.Battle
         }
         
         
-        public static void OnPostReceiveDamage(Entity action)
+        public static void PlayOnHurt(this ActorAnimationComponent self)
         {
-            // if (ActorAnimation == null)
-            // {
-            //     return;
-            // }
-            // ActorAnimation.PlayOnHurt();
+            if (self.ActorAnimation == null)
+            {
+                return;
+            }
+            self.ActorAnimation.PlayOnHurt();
         }
 
 
         
-        // public void PlayAnimationClip(AnimationClip obj)
-        // {
-        //     if (ActorAnimation == null)
-        //     {
-        //         return;
-        //     }
-        //
-        //     if (ActorAnimation is AnimationComponent comp)
-        //     {
-        //         comp.TryPlayFade(obj);
-        //     }
-        // }
+        public static void PlayAnimationClip(this ActorAnimationComponent self, AnimationClip obj)
+        {
+            if (self.ActorAnimation == null)
+            {
+                return;
+            }
+        
+            if (self.ActorAnimation is AnimationComponent comp)
+            {
+                comp.TryPlayFade(obj);
+            }
+        }
 
 
-        // public void PlayIde()
-        // {
-        //     if (ActorAnimation == null)
-        //     {
-        //         return;
-        //     }
-        //     if ((ActorAnimation.Tag & ActorAnimationTag.Idle) > 0)
-        //     {
-        //         return;
-        //     }
-        //
-        //     ActorAnimation.Tag &= ~ActorAnimationTag.Move;
-        //     ActorAnimation.Tag |= ActorAnimationTag.Idle;
-        //     ActorAnimation.PlayIde();
-        // }
-        //
-        // public void PlayMove()
-        // {
-        //     if (ActorAnimation == null)
-        //     {
-        //         return;
-        //     }
-        //     if ((ActorAnimation.Tag & ActorAnimationTag.Move) > 0)
-        //     {
-        //         return;
-        //     }
-        //
-        //     ActorAnimation.Tag &= ~ActorAnimationTag.Idle;
-        //     ActorAnimation.Tag |= ActorAnimationTag.Move;
-        //     ActorAnimation.PlayMove();
-        // }
-        //
-        // public void PlayAnimation(string animationName)
-        // {
-        //     if (ActorAnimation == null)
-        //     {
-        //         return;
-        //     }
-        //     ActorAnimation.PlayAnimation(animationName);
-        // }
+        public static void PlayIde(this ActorAnimationComponent self)
+        {
+            if (self.ActorAnimation == null)
+            {
+                return;
+            }
+            if ((self.ActorAnimation.Tag & ActorAnimationTag.Idle) > 0)
+            {
+                return;
+            }
+        
+            self.ActorAnimation.Tag &= ~ActorAnimationTag.Move;
+            self.ActorAnimation.Tag |= ActorAnimationTag.Idle;
+            self.ActorAnimation.PlayIde();
+        }
+        
+        public static void PlayMove(this ActorAnimationComponent self)
+        {
+            if (self.ActorAnimation == null)
+            {
+                return;
+            }
+            if ((self.ActorAnimation.Tag & ActorAnimationTag.Move) > 0)
+            {
+                return;
+            }
+        
+            self.ActorAnimation.Tag &= ~ActorAnimationTag.Idle;
+            self.ActorAnimation.Tag |= ActorAnimationTag.Move;
+            self.ActorAnimation.PlayMove();
+        }
+        
+        public static void PlayAnimation(this ActorAnimationComponent self, string animationName)
+        {
+            if (self.ActorAnimation == null)
+            {
+                return;
+            }
+            self.ActorAnimation.PlayAnimation(animationName);
+        }
     }
 }

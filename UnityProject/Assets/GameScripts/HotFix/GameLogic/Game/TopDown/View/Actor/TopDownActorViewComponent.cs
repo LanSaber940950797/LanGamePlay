@@ -3,10 +3,16 @@ using GameLogic.Battle;
 
 namespace GameLogic
 {
-    [ComponentOf(typeof(LSWorld))]
-    public class TopDownActorViewComponent : LSEntity, IAwake
+    [ComponentOf(typeof(Room))]
+    public class TopDownActorViewComponent : Entity, IAwake,IDestroy
     {
-        
+        private EntityRef<ActorView> playerView;
+
+        public ActorView PlayerView
+        {
+            get => playerView;
+            set => playerView = value;
+        }
     }
     
     [EntitySystemOf(typeof(TopDownActorViewComponent))]
@@ -15,12 +21,25 @@ namespace GameLogic
         [EntitySystem]
         public static void Awake(this TopDownActorViewComponent self)
         {
-            self.LSWorld().AddEventListener<ActorView>(BattleEvent.ActorCreateView, OnActorCreate, self);
+            self.Room().AddEventListener<ActorView>(BattleEvent.ActorCreateView, OnActorCreateView, self);
         }
-
-        private static void OnActorCreate(Entity entity, ActorView actorView)
+        
+        [EntitySystem]
+        public static void Destroy(this TopDownActorViewComponent self)
         {
+            self.PlayerView = null;
+            self.Room().RemoveEventListener<ActorView>(BattleEvent.ActorCreateView, OnActorCreateView, self);
+        }
+        
+        
+        private static void OnActorCreateView(Entity entity, ActorView actorView)
+        {
+            TopDownActorViewComponent self = entity.As<TopDownActorViewComponent>();
             actorView.AddComponent<TopDownActorView>();
+            if (actorView.Actor.ActorType == ActorType.Player)
+            {
+                self.PlayerView = actorView;
+            }
         }
         
     }

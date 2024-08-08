@@ -20,6 +20,7 @@ namespace GameLogic.Battle
             where TAction : LSEntity, IActionExecution,IAwake
         {
 #if LAN_SYNC
+            isSync &= BattleConstValue.IsStateSync; 
             if (isSync 
                 && !self.IsServer()
                 && !isForce

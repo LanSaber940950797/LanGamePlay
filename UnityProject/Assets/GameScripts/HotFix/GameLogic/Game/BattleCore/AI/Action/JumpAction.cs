@@ -11,7 +11,7 @@ namespace GameLogic.Battle
         protected override Status OnUpdate()
         {
             var moveComponent = actor.GetComponent<MoveComponent>();
-            moveComponent.Jump();
+            moveComponent.DoMoveAction((int)MoveType.Jump);
             return Status.Success;
         }
     }

@@ -13,8 +13,21 @@ namespace GameLogic.Battle
 {
     [FriendOf(typeof (NumericComponent))]
    
+    [EntitySystemOf(typeof( NumericComponent))]
     public  static partial class NumericComponentSystem
     {
+        [EntitySystem]
+        public static void Awake(this NumericComponent self)
+        {
+            self.Event = MemoryPool.Acquire<ActorEventDispatcher>();
+        }
+
+        [EntitySystem]
+        public static void Destroy(this NumericComponent self)
+        {
+            MemoryPool.Release(self.Event);
+            self.Event = null;
+        }
         //浮点数精度
         public const int Precision = 1000;
         public static float GetAsFloat(this NumericComponent self, int numericType)
@@ -158,7 +171,7 @@ namespace GameLogic.Battle
 
     [ComponentOf(typeof (Actor))]
     [MemoryPackable]
-    public partial class NumericComponent: LSEntity, IAwake, ISerializeToEntity,IDeserialize
+    public partial class NumericComponent: LSEntity, IAwake, ISerializeToEntity,IDeserialize,IDestroy
     {
         [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfArrays)]
         public Dictionary<int, long> NumericDic = new Dictionary<int, long>();

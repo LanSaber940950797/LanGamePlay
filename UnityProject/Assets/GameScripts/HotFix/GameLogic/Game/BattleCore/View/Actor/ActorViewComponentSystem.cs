@@ -10,14 +10,14 @@ namespace GameLogic.Battle
         {
             self.InitActorView();
             var room = self.GetParent<Room>();
-            room.LSWorld.AddEventListener<Actor, ActorCreateInfo>(BattleEvent.ActorCreate, OnActorCreate, self);
+            room.LSWorld.AddEventListener<CreateActorAction>(BattleEvent.ActorCreate, OnActorCreate, self);
         }
         
         [EntitySystem]
         public static void Destroy(this ActorViewComponent self)
         {
             var room = self.GetParent<Room>();
-            room.LSWorld.RemoveEventListener<Actor, ActorCreateInfo>(BattleEvent.ActorCreate, OnActorCreate, self);
+            room.LSWorld.RemoveEventListener<CreateActorAction>(BattleEvent.ActorCreate, OnActorCreate, self);
         }
 
         private static void InitActorView(this ActorViewComponent self)
@@ -36,9 +36,10 @@ namespace GameLogic.Battle
             }
         }
 
-        public static void OnActorCreate(Entity entity, Actor actor, ActorCreateInfo info)
+        public static void OnActorCreate(Entity entity, CreateActorAction action)
         {
             var self = entity.As<ActorViewComponent>();
+            var actor = action.Target;
             self.AddChildWithId<ActorView, Actor>(actor.Id, actor);
         }
         

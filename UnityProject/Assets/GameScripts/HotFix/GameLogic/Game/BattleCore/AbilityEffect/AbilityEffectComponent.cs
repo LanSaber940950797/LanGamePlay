@@ -34,7 +34,7 @@ namespace GameLogic.Battle
             self.EffectLevel = desc.Level;
             for (int i = 0; i < desc.Effects.Count; i++)
             {
-                self.AddChild<AbilityEffect, EffectDesc, int>(desc, i);
+                self.AddChild<AbilityEffect, EffectDesc, int>(desc, i + 1);
             }
         }
 

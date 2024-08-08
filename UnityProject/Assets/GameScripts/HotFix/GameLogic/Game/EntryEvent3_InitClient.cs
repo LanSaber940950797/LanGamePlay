@@ -17,8 +17,9 @@ namespace GameLogic
             GameEntrySystem.Instance.Root = root;
             await EventSystem.Instance.PublishAsync(root, new AppStartInitFinish());
             
-            GameModule.UI.ShowUI<GameStartPage>();
-           
+            //GameModule.UI.ShowUI<GameStartPage>();
+            TopDownHelper.StartGame();
+
         }
     }
 }

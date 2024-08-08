@@ -8,6 +8,7 @@ namespace GameLogic
         public static void TopDownInit(this Room self, long startTime, int frame = -1, LSWorld serverWorld = null)
         {
             BattleConstValue.WorldType = BattleWorldType.TwoDimensional;
+            BattleConstValue.IsStateSync = false;
             self.Init(startTime, frame, serverWorld);
 
             LSWorld lsWorld = self.LSWorld;
@@ -17,12 +18,15 @@ namespace GameLogic
             lsWorld.AddComponent<RvoWorldComponent>();
             //加载前端组件
             self.AddComponent<InputControlComponent>();
-          
+            self.AddComponent<TopDownActorViewComponent>();
+
         }
 
         public static void TopDownUpdate(this Room self)
         {
+            self.LSWorld.Frame++;
             self.LSWorld.Update();
+            self.GetComponent<InputControlComponent>().LSLateUpdate();
         }
     }
 }

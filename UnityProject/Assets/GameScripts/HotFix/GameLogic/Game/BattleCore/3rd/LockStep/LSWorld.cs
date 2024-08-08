@@ -12,6 +12,7 @@ namespace ET
         {
             return entity.IScene as LSWorld;
         }
+        
 
         public static long GetId(this LSEntity entity)
         {

@@ -9,22 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dbc11124309461c898e69e2c33d4dc7, type: 3}
-  m_Name: tree_skill_001
+  m_Script: {fileID: 11500000, guid: 77eff6e90efa77848b31d5d488608422, type: 3}
+  m_Name: BehaviorTreeSO
   m_EditorClassIdentifier: 
   root:
-    rid: 3605641801813196800
+    rid: 3605641858014248978
   blockData: []
   Description: 
   sharedVariables: []
-  externalSkill: {fileID: 0}
-  description: 
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 3605641801813196800
+    - rid: 3605641858014248978
       type: {class: Root, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
       data:
         graphPosition:

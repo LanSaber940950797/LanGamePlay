@@ -13,7 +13,7 @@ namespace GameLogic.Battle
             var inputControlCompoent = actor.LSWorld().Parent.GetComponent<InputControlComponent>();
             var moveComponent = actor.GetComponent<MoveComponent>();
             moveComponent.MaxSpeed = moveComponent.Speed;
-            actor.GetComponent<MoveComponent>().MoveDir(inputControlCompoent.MoveDir.ToTSVector());
+            actor.GetComponent<MoveComponent>().DoMoveAction((int)MoveType.MoveDir, inputControlCompoent.MoveDir.ToTSVector());
             return Status.Success;
         }
     }

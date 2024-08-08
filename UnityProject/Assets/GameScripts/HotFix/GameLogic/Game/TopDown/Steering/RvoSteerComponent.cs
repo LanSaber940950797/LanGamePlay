@@ -80,17 +80,26 @@ namespace GameLogic.Battle
             {
                 return;
             }
-            var moveComponent = self.Actor.GetComponent<MoveComponent>();
-            
-            
-            moveComponent.Velocity.Set(agent.velocity.x, agent.velocity.y, 0);
-            var transform = self.Actor.GetComponent<TransformComponent>();
-            transform.Position.Set(agent.position.x, agent.position.y, 0);
+           
+            if (self.Actor.ActorType != ActorType.Player)
+            {
+                var moveComponent = self.Actor.GetComponent<MoveComponent>();
+                moveComponent.Velocity.Set(agent.velocity.x, agent.velocity.y, 0);
+                var transform = self.Actor.GetComponent<TransformComponent>();
+                transform.Position.Set(agent.position.x, agent.position.y, 0);
+            }
         }
         
         public static void RefreshRVOAgentSpeed(this RvoSteerComponent self, FP maxSpeed)
         {
             self.Agent.maxSpeed_ = maxSpeed.AsFloat();
+        }
+        
+        public static void ChangeAgentPosition(this RvoSteerComponent self, TSVector pos)
+        {
+            var agent = self.Agent;
+            agent.position.x = pos.x.AsFloat();
+            agent.position.y = pos.y.AsFloat();
         }
     }
 }

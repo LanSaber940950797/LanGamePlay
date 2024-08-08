@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbc11124309461c898e69e2c33d4dc7, type: 3}
+  m_Name: tree_skill_1001
+  m_EditorClassIdentifier: 
+  root:
+    rid: 3605641868778405950
+  blockData:
+  - ChildNodes:
+    - 4e6b5003-b024-4e57-919b-cafeabba1502
+    - 0d29599a-2ca8-4b29-b027-1ee71ff1217d
+    - ffb47ea4-2df0-4110-9126-9a2fd18ca75a
+    - 26b4863f-8988-485f-a08c-a90581736dd5
+    - 908eadd2-818a-4ab8-ab66-e7ecc03f614f
+    - 01935053-fb91-4e70-af9f-9b9fdc45568b
+    - 9cd768dd-3e9b-48cb-9cce-987fa981c769
+    Position: {x: 896, y: -829}
+    Title: "\u9009\u62E9\u76EE\u6807"
+  - ChildNodes:
+    - a07a6d7d-656b-4690-8dc1-2a68e408823d
+    - 47ff5545-ff50-4c8d-abf9-5afeabc514ff
+    Position: {x: 1035, y: 474}
+    Title: "\u6267\u884C\u6548\u679C"
+  - ChildNodes:
+    - 2b1f4e04-e7e9-454e-b355-dbe5536d8058
+    - d108f4d7-f9fb-46ba-9c9b-f3d6276c4ce4
+    Position: {x: 1058, y: 869}
+    Title: "\u524D\u7AEF\u5C55\u793A"
+  Description: 
+  sharedVariables:
+  - rid: 3605641868778405900
+  - rid: 3605641868778405901
+  - rid: 3605641868778405902
+  - rid: 3605641868778405903
+  - rid: 3605641868778405904
+  externalSkill: {fileID: 0}
+  description: 
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3605641868778405900
+      type: {class: SharedSObject, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        isShared: 0
+        isGlobal: 0
+        mName: caster
+        constraintTypeAQM: GameLogic.Battle.Actor, GameLogic, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 3605641868778405901
+      type: {class: SharedSObject, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        isShared: 0
+        isGlobal: 0
+        mName: targets
+        constraintTypeAQM: GameLogic.Battle.SharedActors, GameLogic, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 3605641868778405902
+      type: {class: SharedVector3, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        isShared: 0
+        isGlobal: 0
+        mName: tmpVec1
+        value: {x: 0, y: 0, z: 0}
+    - rid: 3605641868778405903
+      type: {class: SharedVector3, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        isShared: 0
+        isGlobal: 0
+        mName: tmpVec2
+        value: {x: 0, y: 0, z: 0}
+    - rid: 3605641868778405904
+      type: {class: SharedSObject, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        isShared: 0
+        isGlobal: 0
+        mName: tmpFilerActor
+        constraintTypeAQM: GameLogic.Battle.Actor, GameLogic, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 3605641868778405950
+      type: {class: Root, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 400
+          y: 300
+          width: 79
+          height: 77
+        description: 
+        guid: fe9bfef5-4426-4c5f-8602-643ff7fd0e09
+        child:
+          rid: 3605641868778405951
+    - rid: 3605641868778405951
+      type: {class: SkillExSequence, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 635
+          y: 330
+          width: 167
+          height: 162
+        description: 
+        guid: a4fd483c-c219-4064-ba4a-bda1e171bc30
+        children:
+        - rid: 3605641868778405952
+        - rid: 3605641868778405953
+        - rid: 3605641868778405954
+        abortOnConditionChanged: 0
+    - rid: 3605641868778405952
+      type: {class: Sequence, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 921
+          y: -243
+          width: 173
+          height: 210
+        description: 
+        guid: 908eadd2-818a-4ab8-ab66-e7ecc03f614f
+        children:
+        - rid: 3605641868778405955
+        - rid: 3605641868778405956
+        - rid: 3605641868778405957
+        - rid: 3605641868778405958
+        - rid: 3605641868778405959
+        abortOnConditionChanged: 1
+    - rid: 3605641868778405953
+      type: {class: ActorsForeach, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1060
+          y: 534
+          width: 281
+          height: 172
+        description: 
+        guid: a07a6d7d-656b-4690-8dc1-2a68e408823d
+        child:
+          rid: 3605641868778405960
+        targets:
+          isShared: 1
+          isGlobal: 0
+          mName: targets
+          value:
+            ViewGO: {fileID: 0}
+        tmpFilterActor:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpFilerActor
+    - rid: 3605641868778405954
+      type: {class: Selector, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1083
+          y: 929
+          width: 173
+          height: 114
+        description: 
+        guid: 2b1f4e04-e7e9-454e-b355-dbe5536d8058
+        children:
+        - rid: 3605641868778405961
+        abortOnConditionChanged: 0
+    - rid: 3605641868778405955
+      type: {class: SkillActionGetEffectActor, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1215
+          y: -769
+          width: 235
+          height: 154
+        description: 
+        guid: 0d29599a-2ca8-4b29-b027-1ee71ff1217d
+        effectiveActorType: 1
+        actorShared:
+          isShared: 1
+          isGlobal: 0
+          mName: caster
+    - rid: 3605641868778405956
+      type: {class: SkillActionGetTargets, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1199
+          y: -560
+          width: 281
+          height: 210
+        description: 
+        guid: 4e6b5003-b024-4e57-919b-cafeabba1502
+        targetSide: 2
+        isSelf: 0
+        self:
+          isShared: 1
+          isGlobal: 0
+          mName: caster
+        targets:
+          isShared: 1
+          isGlobal: 0
+          mName: targets
+          value:
+            ViewGO: {fileID: 0}
+    - rid: 3605641868778405957
+      type: {class: SkillActionGetActorVec3, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1230
+          y: -294
+          width: 256
+          height: 192
+        description: 
+        guid: ffb47ea4-2df0-4110-9126-9a2fd18ca75a
+        target:
+          isShared: 1
+          isGlobal: 0
+          mName: caster
+        getVec3Type: 2
+        getVec3:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpVec1
+          value: {x: 0, y: 0, z: 0}
+    - rid: 3605641868778405958
+      type: {class: SkillActionGetActorVec3, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1239
+          y: -55
+          width: 257
+          height: 192
+        description: 
+        guid: 26b4863f-8988-485f-a08c-a90581736dd5
+        target:
+          isShared: 1
+          isGlobal: 0
+          mName: caster
+        getVec3Type: 1
+        getVec3:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpVec2
+          value: {x: 0, y: 0, z: 0}
+    - rid: 3605641868778405959
+      type: {class: ActorsFilter, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1270
+          y: 207
+          width: 281
+          height: 191
+        description: 
+        guid: 01935053-fb91-4e70-af9f-9b9fdc45568b
+        child:
+          rid: 3605641868778405962
+        targets:
+          isShared: 1
+          isGlobal: 0
+          mName: targets
+          value:
+            ViewGO: {fileID: 0}
+        tmpFilterActor:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpFilerActor
+        tatgetCount: 1
+    - rid: 3605641868778405960
+      type: {class: SkillActionDoEffect, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1396
+          y: 534
+          width: 271
+          height: 171
+        description: 
+        guid: 47ff5545-ff50-4c8d-abf9-5afeabc514ff
+        target:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpFilerActor
+        effectIndex:
+          isShared: 0
+          isGlobal: 0
+          mName: 
+          value: 1
+    - rid: 3605641868778405961
+      type: {class: SkillActionPlayAnimation, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1431
+          y: 929
+          width: 235
+          height: 209
+        description: 
+        guid: d108f4d7-f9fb-46ba-9c9b-f3d6276c4ce4
+        actor:
+          isShared: 1
+          isGlobal: 0
+          mName: caster
+        animationClip:
+          isShared: 0
+          isGlobal: 0
+          mName: 
+          value: {fileID: 74226481536764512, guid: 9d16350f23c7c9c40b947731228418a1, type: 3}
+        animationName:
+          isShared: 0
+          isGlobal: 0
+          mName: 
+          value: 
+    - rid: 3605641868778405962
+      type: {class: ConditionInSector, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1705
+          y: -134
+          width: 271
+          height: 302
+        description: 
+        guid: 9cd768dd-3e9b-48cb-9cce-987fa981c769
+        evaluateOnRunning: 0
+        child:
+          rid: -2
+        sectorAngle:
+          isShared: 0
+          isGlobal: 0
+          mName: 
+          value: 60
+        sectorRadius:
+          isShared: 0
+          isGlobal: 0
+          mName: 
+          value: 5
+        sectorCenter:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpVec1
+          value: {x: 0, y: 0, z: 0}
+        sectorDirection:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpVec2
+          value: {x: 0, y: 0, z: 0}
+        target:
+          isShared: 1
+          isGlobal: 0
+          mName: tmpFilerActor

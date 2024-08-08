@@ -1,5 +1,6 @@
 ﻿using ET;
 using GameLogic.Battle;
+using TrueSync;
 
 namespace GameLogic
 {
@@ -15,15 +16,21 @@ namespace GameLogic
         [EntitySystem]
         public static void Awake(this TopDownActor self)
         {
-            var numeric = self.Actor.GetComponent<NumericComponent>();
+            Actor actor = self.Actor;
+            var numeric = actor.GetComponent<NumericComponent>();
             numeric.SetNoEvent(NumericType.HpBase, 1000);
             numeric.SetNoEvent(NumericType.SpeedBase, 5000);
             numeric.SetNoEvent(NumericType.AttackBase, 50);
-
-            self.Actor.AddComponent<RvoSteerComponent>();
+            actor.GetComponent<MoveComponent>().Speed = numeric.GetAsFP(NumericType.Speed);
+            actor.GetComponent<TransformComponent>().Forward = TSVector.right;
+            actor.AddComponent<RvoSteerComponent>();
+            if (actor.ActorType == ActorType.Player)
+            {
+                actor.AddComponent<ActorAIComponent, string>("tree_ai_topdown_player");
+                actor.AttachSkill(1001);
+            }
             
-            
-            self.Actor.ListenActionPoint(ActionPointType.Move,OnActionMove, self);
+            actor.ListenActionPoint(ActionPointType.Move,OnActionMove, self);
             //self.Actor.ListenActionPoint(ActionPointType.PreMove,OnActionPreMove, self);
         }
 
@@ -36,7 +43,10 @@ namespace GameLogic
             if (action.MoveType == (int)MoveType.MoveDir)
             {
                 moveComponent.SetMaxSpeed(moveComponent.Speed);
-                self.Actor.GetComponent<RvoSteerComponent>().MoveByDir(action.Velocity, moveComponent.MaxSpeed);
+                var det = action.Velocity.normalized * moveComponent.Speed * LSConstValue.UpdateInterval / 1000;
+                transformComponent.Position += det;
+                moveComponent.Velocity = action.Velocity;
+                self.Actor.GetComponent<RvoSteerComponent>().ChangeAgentPosition(transformComponent.Position);
             }
             else if(action.MoveType == (int)MoveType.StopMove)
             {
@@ -46,5 +56,8 @@ namespace GameLogic
             }
             
         }
+        
+     
+
     }
 }

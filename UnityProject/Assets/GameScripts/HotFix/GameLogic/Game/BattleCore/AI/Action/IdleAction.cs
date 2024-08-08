@@ -10,9 +10,7 @@ namespace GameLogic.Battle
         
         protected override Status OnUpdate()
         {
-            var pos = actor.GetComponent<TransformComponent>().Position;
-            //MoveToTarget(pos);
-            actor.GetComponent<MoveComponent>().StopMove();
+            actor.GetComponent<MoveComponent>().DoMoveAction((int)MoveType.StopMove);
             return Status.Success;
         }
     }

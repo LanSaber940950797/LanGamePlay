@@ -19,13 +19,13 @@ namespace GameLogic.Battle
     public  partial class SkillExecute : LSEntity, IAwake<SkillAbility>, ILSUpdate, IAbilityExecute
     {
         public Actor Target ;
-        public Entity abilityEntity { get; set; }
+     
         public LSEntity AbilityEntity { get; set; }
         public Actor Owner { get; set; }
-        public IAbilityEntity Ability { get => abilityEntity as SkillAbility; set{} }
+        public IAbilityEntity Ability { get => AbilityEntity as SkillAbility; set{} }
 
         //执行体所属的技能
-        public SkillAbility SkillAbility => abilityEntity as SkillAbility;
+        public SkillAbility SkillAbility => AbilityEntity as SkillAbility;
         
         //目标列表
         public List<EntityRef<Actor>> SkillTargets = new List<EntityRef<Actor>>();

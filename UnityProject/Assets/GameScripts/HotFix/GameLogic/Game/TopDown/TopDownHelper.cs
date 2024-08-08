@@ -23,7 +23,7 @@ namespace GameLogic
                 ActorType = ActorType.Player,
                 SideType = SideType.SideA,
                 DescId = 1,
-                Position = new(0, 0, 0),
+                Position = new(5, 0, 0),
                 Rotation = TSQuaternion.identity,
             });
             actorComponent.CreateActor((new ActorCreateInfo()

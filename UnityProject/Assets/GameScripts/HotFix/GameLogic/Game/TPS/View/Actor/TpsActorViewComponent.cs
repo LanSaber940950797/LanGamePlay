@@ -3,7 +3,7 @@
 namespace GameLogic.Battle
 {
     [ComponentOf(typeof(Room))]
-    public class TpsActorViewComponent : Entity, IAwake
+    public class TpsActorViewComponent : Entity, IAwake,IDestroy
     {
         
     }
@@ -15,6 +15,12 @@ namespace GameLogic.Battle
         public static void Awake(this TpsActorViewComponent self)
         {
             self.Room().AddEventListener<ActorView>(BattleEvent.ActorCreateView, OnActorCreateView, self);
+        }
+        
+        [EntitySystem]
+        public static void Destroy(this TpsActorViewComponent self)
+        {
+            self.Room().RemoveEventListener<ActorView>(BattleEvent.ActorCreateView, OnActorCreateView, self);
         }
 
         private static void OnActorCreateView(Entity entity, ActorView actorView)

@@ -43,21 +43,7 @@ namespace GameLogic.Battle
             self.AttachAction<MoveAbility>();
             self.AttachAction<CreateActorAbility>();
 
-            if (self.ActorType == ActorType.Player)
-            {
-                var myId = self.Root().GetComponent<PlayerComponent>().PlayerId;
-                if (myId == self.PlayerId) //本地玩家AI控制器是在本地上的
-                {
-                    self.AddComponent<ActorAIComponent>();
-                }
-            }
-            else
-            {
-                if (self.IsServer())
-                {
-                    self.AddComponent<ActorAIComponent>();
-                }
-            }
+            
         }
 
         #region 能力挂载
@@ -71,9 +57,9 @@ namespace GameLogic.Battle
         
        
         
-        public static SkillAbility AttachSkill(this Actor self, SpellDesc desc)
+        public static SkillAbility AttachSkill(this Actor self, int skillId, int skillLv = 1)
         {
-            var skill = self.GetComponent<SkillComponent>().AddChild<SkillAbility, SpellDesc>(desc);
+            var skill = self.GetComponent<SkillComponent>().AddChild<SkillAbility, int, int>(skillId, skillLv);
             return skill;
         }
 

@@ -18,12 +18,6 @@ namespace GameLogic.Battle
             return Status.Success;
         }
         
-        protected void MoveToTarget(TSVector targetPos, int speed = 1000)
-        {
-            var moveComponent = actor.GetComponent<MoveComponent>();
-            moveComponent.MaxSpeed = moveComponent.Speed * speed / 1000;
-            moveComponent.Move(targetPos);
-        }
-       
+
     }
 }

@@ -15,8 +15,8 @@ namespace GameLogic.Battle
             self.InputDic = new Dictionary<InputType, KeyCode>
             {
                 { InputType.Jump, KeyCode.Space },
-                { InputType.Attack, KeyCode.Mouse0 },
-                { InputType.Skill1, KeyCode.Q },
+                { InputType.Attack, KeyCode.Q },
+                //{ InputType.Skill1, KeyCode.Q },
                 { InputType.Skill2, KeyCode.E },
             };
         }
@@ -54,9 +54,19 @@ namespace GameLogic.Battle
             var keyControls = Math.Abs(keyH) > 0.01f || Math.Abs(keyV) > 0.01f;
             if (keyControls)
             {
-                self.MoveDir = new Vector3(keyH, 0, keyV);
-                //移动方向是相对相机的，获取实际方向
-                self.MoveDir = Camera.main.transform.TransformDirection(self.MoveDir);
+                if (BattleConstValue.WorldType == BattleWorldType.TwoDimensional)
+                {
+                    self.MoveDir = new Vector3(keyH, keyV, 0);
+                   
+                }
+                else
+                {
+                    self.MoveDir = new Vector3(keyH, 0, keyV);
+                    //移动方向是相对相机的，获取实际方向
+                    self.MoveDir = Camera.main.transform.TransformDirection(self.MoveDir);
+                }
+                
+                
             }
             else
             {
@@ -77,10 +87,7 @@ namespace GameLogic.Battle
                 }
             }
         }
-
-
         
-
 
         public static void LSLateUpdate(this InputControlComponent self)
         {

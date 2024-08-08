@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4c3668999f4002838d25a7c524100d, type: 3}
+  m_Name: tree_ai_topdown_player
+  m_EditorClassIdentifier: 
+  root:
+    rid: 3605641858014248966
+  blockData: []
+  Description: 
+  sharedVariables: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3605641858014248966
+      type: {class: Root, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 400
+          y: 300
+          width: 79
+          height: 77
+        description: 
+        guid: a999c4d1-e666-4a04-8790-db6382755db6
+        child:
+          rid: 3605641858014248967
+    - rid: 3605641858014248967
+      type: {class: Selector, ns: Kurisu.AkiBT, asm: Kurisu.AkiBT}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 594
+          y: 281
+          width: 173
+          height: 162
+        description: 
+        guid: 9e702029-a83d-45e7-bfb7-8372afd25d3a
+        children:
+        - rid: 3605641858014248968
+        - rid: 3605641858014248969
+        - rid: 3605641858014248970
+        abortOnConditionChanged: 0
+    - rid: 3605641858014248968
+      type: {class: IsInputKey, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 870
+          y: 24
+          width: 166
+          height: 134
+        description: 
+        guid: b18b9969-8896-49e8-bd2b-463476e52e2d
+        evaluateOnRunning: 0
+        child:
+          rid: 3605641858014248971
+        inputType: 2
+    - rid: 3605641858014248969
+      type: {class: IsJoystick, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 870
+          y: 233
+          width: 136
+          height: 114
+        description: 
+        guid: 35ec349e-3a18-45ee-a7bb-34df0cb7c8cf
+        evaluateOnRunning: 0
+        child:
+          rid: 3605641858014248972
+    - rid: 3605641858014248970
+      type: {class: IdleAction, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 870
+          y: 587
+          width: 131
+          height: 96
+        description: 
+        guid: b92bb0b8-4d4b-4365-a6c4-517afc10170f
+    - rid: 3605641858014248971
+      type: {class: ManualSpellAction, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1117
+          y: 24
+          width: 166
+          height: 115
+        description: 
+        guid: e244959b-795f-4a38-baf5-0dde9f161a07
+        SkillId: 1001
+    - rid: 3605641858014248972
+      type: {class: MoveDirAction, ns: GameLogic.Battle, asm: GameLogic}
+      data:
+        graphPosition:
+          serializedVersion: 2
+          x: 1071
+          y: 233
+          width: 181
+          height: 96
+        description: 
+        guid: 812b2031-51e6-4409-b86b-dc14b043c322

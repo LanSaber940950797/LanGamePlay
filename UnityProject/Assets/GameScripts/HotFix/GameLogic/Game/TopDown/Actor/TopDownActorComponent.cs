@@ -4,7 +4,7 @@ using GameLogic.Battle;
 namespace GameLogic
 {
     [ComponentOf(typeof(LSWorld))]
-    public class TopDownActorComponent : LSEntity, IAwake
+    public class TopDownActorComponent : LSEntity, IAwake, IDestroy
     {
         
     }
@@ -15,11 +15,19 @@ namespace GameLogic
         [EntitySystem]
         public static void Awake(this TopDownActorComponent self)
         {
-            self.LSWorld().AddEventListener<Actor, ActorCreateInfo>(BattleEvent.ActorCreate, OnActorCreate, self);
+            self.LSWorld().AddEventListener<CreateActorAction>(BattleEvent.ActorCreate, OnActorCreate, self);
+        }
+        
+        [EntitySystem]
+        public static void Destroy(this TopDownActorComponent self)
+        {
+            var room = self.GetParent<Room>();
+            room.LSWorld.RemoveEventListener<CreateActorAction>(BattleEvent.ActorCreate, OnActorCreate, self);
         }
 
-        private static void OnActorCreate(Entity entity, Actor actor, ActorCreateInfo info)
+        private static void OnActorCreate(Entity entity,  CreateActorAction action)
         {
+            var actor = action.Target;
             actor.AddComponent<TopDownActor>();
         }
         

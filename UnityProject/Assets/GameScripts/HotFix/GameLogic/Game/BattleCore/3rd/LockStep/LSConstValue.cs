@@ -1,3 +1,5 @@
+using TrueSync;
+
 namespace ET
 {
     public static class LSConstValue

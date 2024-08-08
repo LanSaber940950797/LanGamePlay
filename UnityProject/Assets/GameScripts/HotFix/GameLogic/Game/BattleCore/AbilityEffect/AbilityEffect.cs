@@ -77,7 +77,7 @@ namespace GameLogic.Battle
             self.EffectId = desc.Id;
             self.EffectLevel = desc.Level;
             self.EffectIdx = idx;
-            self.Desc = desc.Effects[idx];
+            self.Desc = desc.Effects[idx - 1];
             self.ViewName = $"{desc.Name}_{idx}";
             self.AddEffectComponent(self.Desc.EffectType);
         }

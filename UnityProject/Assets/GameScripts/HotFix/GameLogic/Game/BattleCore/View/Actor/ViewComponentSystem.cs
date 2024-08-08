@@ -45,6 +45,7 @@ namespace GameLogic.Battle
             { //2d世界下，模型动作会改变角色y坐标，所以需要创建一个gameobject承载
                 self.Go = room.GetComponent<BattleRootView>().CreateGameObject(self);
                 self.ModelGo.transform.SetParent(self.Go.transform);
+                self.ModelGo.transform.forward = new Vector3(-1, 0, 0);
             }
             else //3d世界直接使用模型gameobject
             {
